@@ -8,6 +8,8 @@ import android.os.Handler;
 
 public class SplashScreen extends AppCompatActivity {
     private static final int SPLASH_DELAY = 3000;
+    private Button button;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,5 +24,7 @@ public class SplashScreen extends AppCompatActivity {
             }
         }, SPLASH_DELAY);
     }
+
+
 }
 
