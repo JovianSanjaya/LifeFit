@@ -22,4 +22,17 @@ public class SplashScreen extends AppCompatActivity {
             }
         }, SPLASH_DELAY);
     }
+public class SplashScreen {
+    sajofsao;h;jfsfhsjfhshdfs
+    asfjklashfklsjafhsljkfhsd
+            afjo;sahfshfjshfsdjhfdskjfhjklfhsd
+
+    sahfshfjshfsdjhfdskjfhjklfhsddsafsdfjdsflkajsf
+
+    public jfsfhsjfhshdfs getAsfjklashfklsjafhsljkfhsd() {
+        sahfshfjshfsdjhfdskjfhjklfhsddsafsdfjdsflkajsffdsfjs
+                fj
+                sdfjsfjsa;kdfjdskfjsdkfjdskfadskfj
+                skdfjasfjqqwqw
+    }
 }
