@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:src="@drawable/slide1pic"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/textView_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best of the best "
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:textColor="@color/Black"
+        />
+
+    <TextView
+        android:id="@+id/textView_subheading"
+        android:layout_width="269dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/opensans_condensed_regular"
+        android:text="Our team of caregivers consists of carefully chosen individuals who have undergone rigorous training
+ in nursing and home care. They possess the
+expertise and skills necessary to deliver top-quality
+care that your family truly deserves."
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView_progress"
+        android:layout_width="173dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/progress1" />
+
+
+</LinearLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LifeFit</string>
+    <string name="dont_have_account"><u>Don't have an account?</u></string>
 </resources>
