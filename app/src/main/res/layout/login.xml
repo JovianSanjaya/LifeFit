@@ -40,7 +40,8 @@
         android:textColorHint="@color/LightGrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        android:fontFamily="@font/opensans_regular"/>
 
     <EditText
         android:id="@+id/passwordinput"
@@ -53,7 +54,8 @@
         android:textColorHint="@color/LightGrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        android:fontFamily="@font/opensans_regular"/>
 
     <TextView
         android:id="@+id/donthaveaccount"
@@ -66,10 +68,11 @@
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="TextSizeCheck"
+        android:fontFamily="@font/opensans_regular"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Nextbtn1"
+        android:id="@+id/nextbtn1"
         android:layout_width="160dp"
         android:layout_height="57dp"
         android:layout_marginTop="560dp"
@@ -79,13 +82,15 @@
         android:text="Next"
         android:textColor="@color/White"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/opensans_regular"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="676dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginEnd="104dp"
+        android:fontFamily="@font/opensans_regular"
         android:text="Call LifeFit Customer Center"
         android:textColor="@color/Black"
         android:textSize="15dp"
@@ -103,7 +108,8 @@
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="TextSizeCheck"
+        android:fontFamily="@font/opensans_regular"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

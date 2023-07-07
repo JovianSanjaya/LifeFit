@@ -23,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Onboarding.Activity_OnBoarding1"
             android:exported="false"
@@ -30,7 +31,8 @@
 
         <activity
             android:name=".Onboarding.CaregiverVSCarerecipient"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
     </application>
 
