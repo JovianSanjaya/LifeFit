@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="256dp"
         android:layout_marginEnd="116dp"
         android:fontFamily="@font/opensans_regular"
         android:text="Sign Up For Free"
@@ -32,29 +32,16 @@
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginStart="84dp"
-        android:layout_marginTop="372dp"
+        android:layout_marginTop="348dp"
         android:background="@null"
+        android:fontFamily="@font/opensans_regular"
         android:hint="Username"
         android:textColorHint="@color/LightGrey"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
-        android:fontFamily="@font/opensans_regular" />
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
-    <EditText
-        android:layout_width="280dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="448dp"
-        android:background="@null"
-        android:hint="Email"
-        android:textColorHint="@color/LightGrey"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TouchTargetSizeCheck"
-        android:fontFamily="@font/opensans_regular"/>
-
-<!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
 <!--        android:layout_width="280dp"-->
 <!--        android:layout_height="45dp"-->
 <!--        android:layout_marginTop="524dp"-->
@@ -67,23 +54,36 @@
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginStart="84dp"
-        android:layout_marginTop="524dp"
+        android:layout_marginTop="416dp"
         android:background="@null"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="Email"
+        android:textColorHint="@color/LightGrey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!--</com.google.android.material.textfield.TextInputLayout>-->
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="484dp"
+        android:background="@null"
+        android:fontFamily="@font/opensans_regular"
         android:hint="Password"
         android:inputType="textPassword"
         android:textColorHint="@color/LightGrey"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TouchTargetSizeCheck"
-        android:fontFamily="@font/opensans_regular"/>
-
-    <!--</com.google.android.material.textfield.TextInputLayout>-->
+        tools:ignore="TouchTargetSizeCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/createaccountbtn"
         android:layout_width="175dp"
         android:layout_height="57dp"
-        android:layout_marginTop="656dp"
+        android:layout_marginTop="608dp"
         android:layout_marginEnd="116dp"
         android:background="@drawable/custom_button_15radius"
         android:backgroundTint="@color/themecolor"

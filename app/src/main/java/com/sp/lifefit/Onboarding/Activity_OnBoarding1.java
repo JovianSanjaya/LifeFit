@@ -28,6 +28,7 @@ public class Activity_OnBoarding1 extends AppCompatActivity {
         public void onClick(View v) {
             Intent intent = new Intent(Activity_OnBoarding1.this, CaregiverVSCarerecipient.class);
             startActivity(intent);
+
         }
     };
 
