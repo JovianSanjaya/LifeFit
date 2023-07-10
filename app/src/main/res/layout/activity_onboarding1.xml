@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcirclemiddle">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="490dp"
+        android:layout_marginTop="70dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/GetStartedbtn"
+        android:layout_width="263dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/custom_button_10radius"
+        android:backgroundTint="@color/White"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Get Started"
+        android:textColor="#5DBCC5" />
+
+    <TextView
+        android:id="@+id/alreadyhaveacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I already have account"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:textColor="@color/White"
+        android:textSize="16dp"/>
+
+</LinearLayout>

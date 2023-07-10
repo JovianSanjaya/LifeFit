@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent"
+            android:background="@drawable/signuppage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="92dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="116dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Sign Up For Free"
+        android:textColor="@color/Black"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="348dp"
+        android:background="@null"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="Username"
+        android:textColorHint="@color/LightGrey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="280dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_marginTop="524dp"-->
+<!--        android:layout_marginEnd="44dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:passwordToggleEnabled="true">-->
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="416dp"
+        android:background="@null"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="Email"
+        android:textColorHint="@color/LightGrey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!--</com.google.android.material.textfield.TextInputLayout>-->
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="484dp"
+        android:background="@null"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/LightGrey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/createaccountbtn"
+        android:layout_width="175dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginEnd="116dp"
+        android:background="@drawable/custom_button_15radius"
+        android:backgroundTint="@color/themecolor"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Create Account"
+        android:textColor="@color/White"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
