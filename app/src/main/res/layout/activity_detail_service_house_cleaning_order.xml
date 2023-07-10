@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/twocirclebgsmall"
+    android:background="@drawable/detailservicebg"
     tools:context=".DetailService_HouseCleaningOrder">
 
 
@@ -108,13 +108,14 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="bottom"
-                        android:text="3 Cleaner" />
+                        android:text="3 Bedrooms, 1 Kitchen" />
 
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:text="+$4 for baby"
                         android:textColor="#BFBFBF"
                         android:textSize="14dp" />
                 </LinearLayout>
