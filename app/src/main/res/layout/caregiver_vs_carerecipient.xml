@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="464dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="15dp"
         android:fontFamily="@font/opensans_regular"
         android:text="Care Recipient"
         android:textColor="@color/Black"

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/complete">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="224dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Hey, "
+        android:textColor="@color/Black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Welcome to the family"
+        android:textColor="@color/Black"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="275dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/opensans_condensed_regular"
+        android:text="Welcome to the LifeFit family, where we are dedicated to treating you and your loved ones with the same care and support that we provide to our own members."
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="263dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="672dp"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/custom_button_15radius"
+        android:backgroundTint="@color/White"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Start exploring"
+        android:textColor="@color/themecolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
