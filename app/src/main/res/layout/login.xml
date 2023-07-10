@@ -34,14 +34,14 @@
         android:layout_width="300dp"
         android:layout_height="45dp"
         android:layout_marginEnd="56dp"
-        android:layout_marginBottom="440dp"
+        android:layout_marginBottom="436dp"
         android:background="@null"
+        android:fontFamily="@font/opensans_regular"
         android:hint="Email"
         android:textColorHint="@color/LightGrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="TouchTargetSizeCheck"
-        android:fontFamily="@font/opensans_regular"/>
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/passwordinput"
@@ -50,12 +50,12 @@
         android:layout_marginEnd="56dp"
         android:layout_marginBottom="368dp"
         android:background="@null"
+        android:fontFamily="@font/opensans_regular"
         android:hint="Password"
         android:textColorHint="@color/LightGrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="TouchTargetSizeCheck"
-        android:fontFamily="@font/opensans_regular"/>
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/donthaveaccount"
@@ -72,7 +72,7 @@
         android:fontFamily="@font/opensans_regular"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/nextbtn1"
+        android:id="@+id/nextbtn_login"
         android:layout_width="160dp"
         android:layout_height="57dp"
         android:layout_marginTop="560dp"

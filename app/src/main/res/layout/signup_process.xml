@@ -18,7 +18,8 @@
         android:textColorHint="@color/LightGrey"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/signuplastname"
@@ -31,7 +32,8 @@
         android:textColorHint="@color/LightGrey"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/signupmobilenumber"
@@ -44,19 +46,21 @@
         android:textColorHint="@color/LightGrey"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
-        android:id="@+id/gobackbtn"
+        android:id="@+id/gobackbtn_signup_process"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="24dp"
         android:background="@color/White"
         android:scaleType="fitCenter"
         android:src="@drawable/gobackbtn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:layout_width="300dp"
@@ -80,10 +84,11 @@
         android:textColor="@color/Black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/nextbtn2"
+        android:id="@+id/nextbtn_signupprocess"
         android:layout_width="157dp"
         android:layout_height="57dp"
         android:layout_marginTop="584dp"
@@ -92,6 +97,7 @@
         android:backgroundTint="#5DBCC5"
         android:text="Next"
         android:textColor="@color/White"
+        android:fontFamily="@font/opensans_regular"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
