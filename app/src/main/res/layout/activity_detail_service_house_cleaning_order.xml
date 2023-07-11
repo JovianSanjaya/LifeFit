@@ -370,13 +370,13 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="209dp"
+            android:layout_height="188dp"
             android:layout_gravity="right"
             android:layout_marginBottom="10dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="211dp">
+                android:layout_height="187dp">
 
                 <Button
                     android:id="@+id/button"
