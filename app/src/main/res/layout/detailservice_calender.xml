@@ -19,6 +19,7 @@
             android:layout_height="122dp"
             android:layout_gravity="center"
             android:gravity="center|center_horizontal"
+            android:fontFamily="@font/opensans_bold"
             android:text="Detail Service"
             android:textColor="#000000"
             android:textSize="20dp"
@@ -50,6 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Working Hours"
+                android:fontFamily="@font/opensans_bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
                 android:textStyle="bold" />
@@ -85,6 +87,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="14dp"
+                            android:fontFamily="@font/opensans_regular"
                             android:gravity="center"
                             android:text="11:00 am"
                             android:textColor="#FFFFFF"
@@ -105,6 +108,7 @@
                             android:layout_height="match_parent"
                             android:layout_margin="14dp"
                             android:gravity="center"
+                            android:fontFamily="@font/opensans_regular"
                             android:text="13:00 pm"
                             android:textSize="20dp" />
                     </androidx.cardview.widget.CardView>
@@ -123,6 +127,7 @@
                             android:layout_height="match_parent"
                             android:layout_margin="14dp"
                             android:gravity="center"
+                            android:fontFamily="@font/opensans_regular"
                             android:text="17:00 pm"
                             android:textColor="#FFFFFF"
                             android:textSize="20dp" />
