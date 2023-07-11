@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -94,6 +95,33 @@
                     android:textColor="#000000"
                     android:textSize="15dp" />
             </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="311dp"
+            android:layout_height="334dp"
+            android:layout_gravity="center"
+            tools:srcCompat="@drawable/cashicon2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical">
+            >
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="194dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/themecolor"
+                android:text="Next"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                app:cornerRadius="24dp" />
         </LinearLayout>
 
 
