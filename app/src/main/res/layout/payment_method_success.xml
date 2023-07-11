@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/twocirclebgsmall">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/checkmark" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center"
+            android:text="Congrats!"
+            android:textColor="@color/themecolor"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center"
+            android:text="Your Booking is successful"
+            android:textColor="#000000"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="163dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:backgroundTint="@color/themecolor"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center"
+            android:text="Next"
+            android:textSize="16dp"
+            app:cornerRadius="15dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
