@@ -386,7 +386,7 @@
                     android:layout_gravity="bottom|right"
                     android:layout_marginEnd="32dp"
                     android:layout_marginBottom="32dp"
-                    android:backgroundTint="#00BCD4"
+                    android:backgroundTint="#5DBCC5"
                     android:text="Order Now"
                     app:cornerRadius="50dp"
                     app:layout_constraintBottom_toBottomOf="parent"
