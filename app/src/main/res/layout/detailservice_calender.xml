@@ -20,11 +20,13 @@
 
             <ImageButton
                 android:id="@+id/imageButton2"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="31dp"
                 android:layout_marginTop="31dp"
-                tools:srcCompat="@drawable/gobackbtn" />
+                android:background="@drawable/gobackbtn"
+
+                />
 
             <TextView
                 android:id="@+id/textView8"
