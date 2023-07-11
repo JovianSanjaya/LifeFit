@@ -14,7 +14,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/textView35"
             android:layout_width="match_parent"
             android:layout_height="96dp"
             android:fontFamily="@font/opensans_bold"
@@ -68,9 +68,9 @@
                 android:layout_width="163dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginVertical="5dp"
+                android:layout_marginVertical="10dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="20dp"
+                android:layout_marginEnd="18dp"
                 android:foregroundGravity="center"
                 app:cardBackgroundColor="#4DD9D9D9"
                 app:cardCornerRadius="10dp"
@@ -84,6 +84,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_marginVertical="10dp"
                     android:fontFamily="@font/opensans_regular"
+                    android:gravity="center"
                     android:text="Card Payment"
                     android:textColor="#000000"
                     android:textSize="15dp" />
@@ -107,6 +108,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
                     android:fontFamily="@font/opensans_regular"
+                    android:gravity="center"
                     android:text="Cash Payment"
                     android:textColor="#000000"
                     android:textSize="15dp" />
