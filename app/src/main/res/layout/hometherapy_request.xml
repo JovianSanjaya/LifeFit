@@ -202,5 +202,50 @@
             android:text="Responsibilities:"
             android:textColor="#000000"
             android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Home Therapists provide counseling, case management, crisis intervention and more"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Home Therapists help in the recovery period using therapy aids and mobility exercises "
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="170dp"
+                android:layout_height="58dp"
+                android:layout_gravity="right"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/themecolor"
+                android:text="Request now"
+                android:textSize="12dp"
+                app:cornerRadius="24dp" />
+        </LinearLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
