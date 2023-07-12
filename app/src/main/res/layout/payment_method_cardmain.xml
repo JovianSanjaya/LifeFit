@@ -11,7 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/paymentbg"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView35"
@@ -129,7 +133,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="364dp"
-            android:layout_height="38dp"
+            android:layout_height="40dp"
             android:layout_marginVertical="10dp"
             android:layout_marginStart="31dp"
             android:backgroundTint="#4DD9D9D9"
@@ -138,12 +142,14 @@
 
             <EditText
                 android:id="@+id/card_number_enter"
-                android:layout_width="match_parent"
+                android:layout_width="340dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="@null"
                 android:ems="10"
                 android:fontFamily="@font/opensans_regular"
+                android:hint="Enter your card number"
                 android:inputType="text"
-                android:text="enter your credit card number"
                 android:textSize="14dp" />
 
         </androidx.cardview.widget.CardView>
@@ -187,7 +193,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="169dp"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_marginEnd="10dp"
                 android:backgroundTint="#4DD9D9D9"
                 app:cardCornerRadius="10dp"
@@ -195,11 +201,15 @@
 
                 <EditText
                     android:id="@+id/card_expiry_enter"
-                    android:layout_width="match_parent"
+                    android:layout_width="155dp"
                     android:layout_height="match_parent"
+                    android:layout_marginLeft="7dp"
+                    android:background="@null"
                     android:ems="10"
+                    android:hint="mm/yy"
                     android:inputType="text"
-                    android:text="" />
+                    android:text=""
+                    android:textColorHint="@color/LightGrey" />
 
             </androidx.cardview.widget.CardView>
 
@@ -212,11 +222,15 @@
 
                 <EditText
                     android:id="@+id/card_cvv_enter"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="155dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@null"
                     android:ems="10"
+                    android:hint="***"
                     android:inputType="text"
-                    android:text="" />
+                    android:text=""
+                    android:textColorHint="@color/LightGrey" />
 
             </androidx.cardview.widget.CardView>
 
@@ -236,7 +250,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="364dp"
-            android:layout_height="38dp"
+            android:layout_height="40dp"
             android:layout_marginVertical="10dp"
             android:layout_marginStart="31dp"
             android:backgroundTint="#4DD9D9D9"
@@ -245,11 +259,15 @@
 
             <EditText
                 android:id="@+id/card_name_enter"
-                android:layout_width="match_parent"
+                android:layout_width="350dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:background="@null"
                 android:ems="10"
+                android:hint="Enter your name"
                 android:inputType="text"
-                android:text="" />
+                android:text=""
+                android:textColorHint="@color/LightGrey" />
         </androidx.cardview.widget.CardView>
 
         <LinearLayout
@@ -261,7 +279,7 @@
             <Button
                 android:id="@+id/button3"
                 android:layout_width="194dp"
-                android:layout_height="50dp"
+                android:layout_height="59dp"
                 android:layout_gravity="bottom|center_horizontal"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="@color/themecolor"

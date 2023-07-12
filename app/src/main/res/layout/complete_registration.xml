@@ -10,12 +10,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="364dp"
-        android:layout_marginEnd="224dp"
+        android:layout_marginTop="363dp"
+        android:layout_marginEnd="124dp"
         android:fontFamily="@font/opensans_regular"
-        android:text="Hey, "
+        android:text="Hey, Mr Tham "
         android:textColor="@color/Black"
-        android:textSize="20dp"
+        android:textSize="23dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
