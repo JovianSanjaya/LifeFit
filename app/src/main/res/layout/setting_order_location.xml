@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_order_location">
+    <ImageButton
+        android:id="@+id/go_back_button_setting_order_location"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/go_back_button_background"
+        android:src="@drawable/go_back_button_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Shipping"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="100dp" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="335dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="160dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/shipping_location_icon" />
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="12dp"
+                android:text="Order Location"
+                android:textColor="#605C5C"
+                android:textSize="14sp"
+                android:fontFamily="@font/opensans_regular"/>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="65dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="40dp"
+                android:text="Singapore Polytechnic Dover Road, Singapore"
+                android:textColor="#09051C"
+                android:textSize="16sp"
+                android:fontFamily="@font/opensans_regular"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="335dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="310dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/shipping_location_icon" />
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="12dp"
+                android:text="Deliver To"
+                android:textColor="#605C5C"
+                android:textSize="14sp"
+                android:fontFamily="@font/opensans_regular"/>
+            <TextView
+                android:id="@+id/deliver_location_shipping"
+                android:layout_width="250dp"
+                android:layout_height="63dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="40dp"
+                android:text="Block 17A Telok Blangah Crescent, Singapore"
+                android:textColor="#09051C"
+                android:textSize="16sp"
+                android:fontFamily="@font/opensans_regular"/>
+            <TextView
+                android:id="@+id/set_new_location_textview"
+                android:layout_width="120dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="100dp"
+                android:text="Set Location"
+                android:textColor="#5DBCC5"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/opensans_regular"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageButton
+        android:id="@+id/confirm_location_button_shipping"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="635dp"
+        android:background="@drawable/bottom_navigation_bar_background_curved"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Confirm Location"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#5DBCC5"
+        android:textSize="18sp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="653dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
