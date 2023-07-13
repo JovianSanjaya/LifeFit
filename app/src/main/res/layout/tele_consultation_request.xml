@@ -38,8 +38,8 @@
 
                 <ImageView
                     android:id="@+id/imageView14"
-                    android:layout_width="89dp"
-                    android:layout_height="31dp"
+                    android:layout_width="88dp"
+                    android:layout_height="47dp"
                     android:layout_weight="1"
                     tools:srcCompat="@tools:sample/avatars" />
 
