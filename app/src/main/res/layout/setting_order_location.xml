@@ -142,7 +142,6 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="635dp"
         android:background="@drawable/bottom_navigation_bar_background_curved"
-        android:backgroundTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <TextView
