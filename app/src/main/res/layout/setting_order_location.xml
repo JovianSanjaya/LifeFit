@@ -134,6 +134,7 @@
                 android:fontFamily="@font/opensans_regular"/>
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
+
     <ImageButton
         android:id="@+id/confirm_location_button_shipping"
         android:layout_width="290dp"
@@ -141,6 +142,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="635dp"
         android:background="@drawable/bottom_navigation_bar_background_curved"
+        android:backgroundTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <TextView
