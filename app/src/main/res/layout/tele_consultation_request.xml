@@ -25,7 +25,7 @@
             android:textSize="29dp" />
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
+            android:layout_width="376dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             app:cardCornerRadius="14dp">
@@ -38,31 +38,126 @@
 
                 <ImageView
                     android:id="@+id/imageView14"
-                    android:layout_width="88dp"
-                    android:layout_height="47dp"
+                    android:layout_width="2dp"
+                    android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    tools:srcCompat="@drawable/tele_consultation_icon" />
 
                 <LinearLayout
                     android:layout_width="127dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/textView53"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Home-based" />
+                        android:text="Home-based"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
 
                     <TextView
                         android:id="@+id/textView54"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Online Consultations with a Doctor" />
+                        android:text="Online Consultations with a Doctor"
+                        android:textSize="13dp" />
                 </LinearLayout>
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="95dp"
+                        android:layout_height="89dp"
+                        tools:srcCompat="@drawable/markericon" />
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="87dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/clockicon" />
+
+                    <TextView
+                        android:id="@+id/textView58"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="77dp"
+                        android:layout_height="89dp"
+                        app:srcCompat="@drawable/cashicon" />
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
