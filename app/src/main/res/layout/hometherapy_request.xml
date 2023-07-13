@@ -225,6 +225,7 @@
                 android:layout_marginVertical="10dp"
                 android:text="Home Therapists help in the recovery period using therapy aids and mobility exercises "
                 android:textSize="12dp" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -239,7 +240,6 @@
                 android:layout_width="170dp"
                 android:layout_height="58dp"
                 android:layout_gravity="center|center_horizontal"
-                android:layout_marginEnd="18dp"
                 android:layout_marginBottom="30dp"
                 android:backgroundTint="@color/themecolor"
                 android:gravity="center"
