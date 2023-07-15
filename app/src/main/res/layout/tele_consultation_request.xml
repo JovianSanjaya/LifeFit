@@ -54,6 +54,7 @@
                         android:id="@+id/textView53"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
                         android:text="Home-based"
                         android:textColor="#000000"
                         android:textSize="14dp" />
@@ -62,6 +63,7 @@
                         android:id="@+id/textView54"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_regular"
                         android:text="Online Consultations with a Doctor"
                         android:textSize="13dp" />
                 </LinearLayout>
@@ -195,6 +197,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
+            android:fontFamily="@font/poppins_medium"
             android:text="Responsibilities:"
             android:textColor="#000000"
             android:textSize="18dp" />
@@ -206,6 +209,7 @@
             android:layout_marginVertical="10dp"
             android:layout_marginStart="45dp"
             android:layout_marginEnd="70dp"
+            android:fontFamily="@font/poppins_medium"
             android:text="The patient can discuss their symptoms, medical history, and any concerns they may have."
             android:textSize="12dp" />
 
@@ -216,6 +220,7 @@
             android:layout_marginVertical="10dp"
             android:layout_marginStart="45dp"
             android:layout_marginEnd="70dp"
+            android:fontFamily="@font/poppins_medium"
             android:text="The healthcare provider provide medical advice, make diagnoses, and recommend treatment options online which makes communication for more convenient."
             android:textSize="12dp" />
 

@@ -9,13 +9,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/onecircledetailbg">
+        android:background="@drawable/hometherapybg">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gobackbtn2" />
 
         <TextView
             android:id="@+id/textView37"
             android:layout_width="match_parent"
             android:layout_height="79dp"
-            android:layout_marginTop="220dp"
+            android:layout_marginTop="170dp"
             android:gravity="center"
             android:text="Home Therapy"
             android:textColor="#FFFFFF"
@@ -53,6 +59,7 @@
                         android:id="@+id/textView39"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
                         android:text="Home-Based"
                         android:textColor="#000000"
                         android:textSize="14dp" />
@@ -199,6 +206,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
+            android:fontFamily="@font/poppins_medium"
             android:text="Responsibilities:"
             android:textColor="#000000"
             android:textSize="18dp" />
@@ -215,6 +223,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="10dp"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Home Therapists provide counseling, case management, crisis intervention and more"
                 android:textSize="12dp" />
 
@@ -223,6 +232,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="10dp"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Home Therapists help in the recovery period using therapy aids and mobility exercises "
                 android:textSize="12dp" />
 
