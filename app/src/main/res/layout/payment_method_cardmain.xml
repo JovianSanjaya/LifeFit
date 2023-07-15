@@ -150,7 +150,8 @@
                 android:fontFamily="@font/opensans_regular"
                 android:hint="Enter your card number"
                 android:inputType="text"
-                android:textSize="14dp" />
+                android:textSize="14dp"
+                android:textColorHint="@color/LightGrey"/>
 
         </androidx.cardview.widget.CardView>
 

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/opensans_semibold"
+        android:text="Appointment"
+        android:textColor="@color/Black"
+        android:textSize="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/gobackbtn_doctorappointment"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/go_back_button_background"
+        android:src="@drawable/go_back_button_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/drupul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/opensans_bold"
+        android:text="Dr Upul"
+        android:textColor="@color/Black"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/opensans_semibold"
+        android:text="Dentist"
+        android:textColor="@color/themecolor"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="167dp"
+        android:fontFamily="@font/opensans_bold"
+        android:text="$120.00"
+        android:textColor="@color/themecolor"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="168dp"
+        android:fontFamily="@font/opensans_semibold"
+        android:text="Payment"
+        android:textColor="@color/Black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="204dp"
+        android:fontFamily="@font/opensans_semibold"
+        android:text="Details"
+        android:textColor="@color/Black"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="244dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Dr. Upul is a highly skilled and compassionate physician dedicated to the well-being of her patients. With her extensive knowledge and experience, she exudes confidence and professionalism while maintaining a warm and approachable demeanor that instantly puts her patients at ease."
+        android:textColor="#858585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="375dp"
+        android:fontFamily="@font/opensans_semibold"
+        android:text="Working Hours"
+        android:textColor="@color/Black"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="496dp"
+        android:fontFamily="@font/opensans_semibold"
+        android:text="Date"
+        android:textColor="@color/Black"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="628dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/markericon2" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="628dp"
+        android:text="4517 Washington Ave. Manchester,  Kentucky 39495 "
+        android:textColor="#09051C"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/set_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="680dp"
+        android:text="set location"
+        android:textColor="#5DBCC5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="482dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="31dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:foregroundGravity="center"
+                    app:cardBackgroundColor="#5DBCC5"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="14dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:gravity="center"
+                        android:text="11:00 am"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:foregroundGravity="center"
+                    app:cardBackgroundColor="#D8D4D4"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="14dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/opensans_regular"
+                        android:text="13:00 pm"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:foregroundGravity="center"
+                    app:cardBackgroundColor="#5DBCC5"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="14dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/opensans_regular"
+                        android:text="17:00 pm"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="520dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="482dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="31dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:foregroundGravity="center"
+                    app:cardBackgroundColor="#D8D4D4"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="14dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:gravity="center"
+                        android:text="Sun 4"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:foregroundGravity="center"
+                    app:cardBackgroundColor="#5DBCC5"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="14dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/opensans_regular"
+                        android:text="Mon 5"
+                        android:textSize="20dp"
+                        android:textColor="@color/White"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:foregroundGravity="center"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="#D8D4D4">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:gravity="center"
+                        android:text="Wed 6"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextbtn_appointmentdetails"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="720dp"
+        android:background="@drawable/custom_button_15radius"
+        android:backgroundTint="@color/themecolor"
+        android:text="next"
+        android:textColor="@color/White"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

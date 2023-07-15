@@ -166,9 +166,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Location"
-                android:textColor="#000000"
+                android:textColor="#222123"
                 android:textSize="18dp"
-                android:textStyle="bold" />
+                android:fontFamily="@font/poppins_medium" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -180,7 +180,8 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="35dp">
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="5dp">
 
             <TableRow
                 android:layout_width="match_parent"
@@ -191,7 +192,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4517 Washington Ave. Manchester,  Kentucky 39495 "
-                    android:textSize="17dp" />
+                    android:textSize="17dp"
+                    />
             </TableRow>
 
             <TableRow

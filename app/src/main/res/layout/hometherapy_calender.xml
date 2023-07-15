@@ -22,9 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="31dp"
                 android:layout_marginTop="31dp"
-                android:background="@drawable/gobackbtn"
-
-                />
+                android:background="@drawable/gobackbtn"/>
 
             <TextView
                 android:id="@+id/textView8"

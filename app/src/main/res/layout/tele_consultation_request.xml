@@ -222,7 +222,7 @@
             android:layout_marginEnd="70dp"
             android:fontFamily="@font/poppins_medium"
             android:text="The healthcare provider provide medical advice, make diagnoses, and recommend treatment options online which makes communication for more convenient."
-            android:textSize="12dp" />
+            android:textSize="12dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
