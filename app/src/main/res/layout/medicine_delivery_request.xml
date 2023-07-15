@@ -12,14 +12,11 @@
         android:background="@drawable/onecirclebgmeds"
         android:orientation="vertical">
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="241dp" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="240dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -98,7 +95,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
+            android:layout_width="373dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:layout_marginTop="20dp"
@@ -112,7 +109,7 @@
 
                 <TextView
                     android:id="@+id/textView22"
-                    android:layout_width="213dp"
+                    android:layout_width="423dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:fontFamily="@font/opensans_regular"
