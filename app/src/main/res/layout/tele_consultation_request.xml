@@ -109,6 +109,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:fontFamily="@font/poppins_medium"
                         android:text="City Center"
                         android:textColor="#000000"
                         android:textSize="12dp" />
@@ -147,6 +148,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:fontFamily="@font/poppins_medium"
                         android:text="Consultation"
                         android:textColor="#000000"
                         android:textSize="12dp" />
@@ -186,6 +188,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="$45/hr"
+                        android:fontFamily="@font/poppins_medium"
                         android:textColor="#000000"
                         android:textSize="12dp" />
                 </LinearLayout>
@@ -196,33 +199,70 @@
             android:id="@+id/textView63"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
             android:layout_marginStart="18dp"
             android:fontFamily="@font/poppins_medium"
             android:text="Responsibilities:"
             android:textColor="#000000"
             android:textSize="18dp" />
 
-        <TextView
-            android:id="@+id/textView62"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:layout_marginStart="45dp"
-            android:layout_marginEnd="70dp"
-            android:fontFamily="@font/poppins_medium"
-            android:text="The patient can discuss their symptoms, medical history, and any concerns they may have."
-            android:textSize="12dp" />
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView61"
-            android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="•"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/poppins_medium"
+                android:lineSpacingExtra="6dp"
+                android:text="The patient can discuss their symptoms, medical history, and any concerns they may have."
+                android:textColor="#989494"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:layout_marginStart="45dp"
-            android:layout_marginEnd="70dp"
-            android:fontFamily="@font/poppins_medium"
-            android:text="The healthcare provider provide medical advice, make diagnoses, and recommend treatment options online which makes communication for more convenient."
-            android:textSize="12dp"/>
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="•"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/poppins_medium"
+                android:lineSpacingExtra="6dp"
+                android:text="The healthcare provider provide medical advice, make diagnoses, and recommend treatment options online which makes communication for more convenient."
+                android:textColor="#989494"
+                android:textSize="12dp" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
