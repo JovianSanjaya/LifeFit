@@ -141,4 +141,6 @@
     <color name="Navy">#000080</color>
     <color name="Black">#000000</color>
     <color name="themecolor">#5DBCC5</color>
+    <color name="stroke">#80000000</color>
+
 </resources>
