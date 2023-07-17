@@ -207,7 +207,7 @@
         <TextView
             android:id="@+id/textView47"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="25dp"
             android:layout_marginStart="18dp"
             android:fontFamily="@font/poppins_medium"
             android:text="Responsibilities:"
@@ -220,9 +220,10 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:layout_marginStart="10dp"
+                android:layout_marginBottom="40dp"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="•"
@@ -249,9 +250,10 @@
 
             <TextView
                 android:id="@+id/textView69"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="45dp"
+                android:layout_height="29dp"
                 android:layout_marginStart="10dp"
+                android:layout_marginBottom="35dp"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="•"
