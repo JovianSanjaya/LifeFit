@@ -31,7 +31,8 @@
             android:layout_width="match_parent"
             android:layout_height="76dp"
             android:layout_marginHorizontal="18dp"
-            app:cardCornerRadius="14dp">
+            app:cardCornerRadius="14dp"
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"

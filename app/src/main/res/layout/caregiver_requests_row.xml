@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="91dp"
+                android:layout_height="71dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="247dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="bottom"
+                    android:text="Mrs Tham"
+                    android:textColor="#000000"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/requested_things"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center_vertical"
+                    android:text="Meal arragment"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
