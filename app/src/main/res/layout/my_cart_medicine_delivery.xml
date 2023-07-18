@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_cart_medicine_delivery_background">
+    <ImageButton
+        android:id="@+id/go_back_button_drugs_detail"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/go_back_button_background"
+        android:src="@drawable/go_back_button_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="My Cart"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="40dp" />
+    <ListView
+        android:id="@+id/medicine_delivery_orders"
+        android:layout_width="360dp"
+        android:layout_height="280dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="95dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Payment Details"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="390dp" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Subtotal"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="420dp" />
+    <TextView
+        android:id="@+id/subtotal_cost_of_selected_drugs"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="$45.98"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="420dp" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Delivery Charge"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="450dp" />
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="$10.00"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="450dp" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Total"
+        android:fontFamily="@font/opensans_condensed_semibold"
+        android:textColor="#101623"
+        android:textSize="22sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="480dp" />
+    <TextView
+        android:id="@+id/total_cost_medicine_delivery"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="$55.98"
+        android:fontFamily="@font/opensans_condensed_semibold"
+        android:textColor="#101623"
+        android:textSize="22sp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="480dp" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="530dp"
+        app:srcCompat="@drawable/confirm_order_location_icon"/>
+    <TextView
+        android:id="@+id/delivery_location_of_medicine_delivery"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Block 17A Telok Blangah Crescent, Singapore"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#09051C"
+        android:textSize="15sp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="525dp" />
+    <TextView
+        android:id="@+id/change_location_medicine_delivery"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="575dp"
+        android:text="Set Location"
+        android:textColor="#5DBCC5"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/opensans_regular"/>
+    <ImageButton
+        android:id="@+id/checkout_drug_button_my_cart"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/add_cart_button_curved"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Checkout"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="663dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

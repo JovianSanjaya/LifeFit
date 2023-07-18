@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drugs_detail_background">
+    <ImageButton
+        android:id="@+id/go_back_button_drugs_detail"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/go_back_button_background"
+        android:src="@drawable/go_back_button_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Drugs Detail"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="40dp" />
+    <ImageView
+        android:id="@+id/drug_selected_image"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        app:srcCompat="@drawable/some_obh_combi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="131dp"/>
+    <TextView
+        android:id="@+id/selected_drug_name"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="OBH Combi"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="320dp" />
+    <TextView
+        android:id="@+id/selected_drug_amount"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="75ml"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#ADADAD"
+        android:textSize="16sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="360dp" />
+    <ImageButton
+        android:id="@+id/add_quantity_button_drug_details"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="420dp"
+        android:background="#5DBCC5"
+        android:src="@drawable/add_quantity_plus_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:id="@+id/minus_quantity_button_drug_details"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="420dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/delete_quantity_minus_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="1"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#101623"
+        android:textSize="22sp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="420dp" />
+    <TextView
+        android:id="@+id/cost_of_selected_drug"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="$9.99"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#101623"
+        android:textSize="28sp"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="415dp" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Description"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="470dp" />
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="*if unsure go for doctor’s consultation"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#FF0000"
+        android:textSize="14sp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="470dp" />
+    <TextView
+        android:id="@+id/general_drug_description"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="OBH COMBI  is a cough medicine containing, Paracetamol, Ephedrine HCl, and Chlorphenamine maleate which is used to relieve coughs accompanied by flu symptoms such as fever, headache, and sneezing"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="500dp" />
+    <ImageButton
+        android:id="@+id/add_to_cart_button_drug_details"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/add_to_cart_button_drugs_detail_background"
+        android:src="@drawable/the_add_to_cart_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageButton
+        android:id="@+id/consult_doctor_button_drug_details"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/add_cart_button_curved"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Consult Doctor"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="663dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

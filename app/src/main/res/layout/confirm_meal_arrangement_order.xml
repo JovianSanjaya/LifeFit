@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/confirm_meal_arrangement_order">
+    <ImageButton
+        android:id="@+id/go_back_button_confirm_meal_order"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/go_back_button_background"
+        android:src="@drawable/go_back_button_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Order Details"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="100dp" />
+    <ListView
+        android:id="@+id/meal_arrangement_orders"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="155dp"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="480dp"
+        app:srcCompat="@drawable/confirm_order_location_icon"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Block 17A Telok Blangah Crescent, Singapore"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#8E8080"
+        android:textSize="14sp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="475dp" />
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Sub-Total"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#FEFEFF"
+        android:textSize="16sp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="560dp" />
+    <TextView
+        android:id="@+id/sub_total_cost_confirm_meal_order"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="$70"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#FEFEFF"
+        android:textSize="16sp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="560dp" />
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Delivery Charge"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#FEFEFF"
+        android:textSize="16sp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="590dp" />
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="$10"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#FEFEFF"
+        android:textSize="16sp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="590dp" />
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Total"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#FEFEFF"
+        android:textSize="18sp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="620dp" />
+    <TextView
+        android:id="@+id/total_cost_confirm_meal_order"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="$70"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="#FEFEFF"
+        android:textSize="18sp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="620dp" />
+    <ImageButton
+        android:id="@+id/place_order_button_confirm_meal_order"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/bottom_navigation_bar_background_curved"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Place My Order"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#5DBCC5"
+        android:textSize="18sp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="673dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
