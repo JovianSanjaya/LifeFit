@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".my_profile_caregiver">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundsmallcirclesatcorner"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="122dp"
+                android:layout_height="116dp"
+                android:layout_marginEnd="30dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="right|center_vertical"
+                android:text="My Profile"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="1dp"
+                android:layout_height="138dp"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/caregiver_own_icom"
+                android:layout_width="246dp"
+                android:layout_height="116dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                tools:src="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/caregiver_own_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:fontFamily="@font/opensans_bold"
+                    android:text="Caregiver Name"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/caregiver_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Caregiver@gmail.com" />
+
+                <TextView
+                    android:id="@+id/caregiver_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+65 1773345" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/themecolor"
+                    android:text="Edit Profile"
+                    app:cornerRadius="5dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text="My Details"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
