@@ -100,6 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <androidx.cardview.widget.CardView
+                android:id="@+id/panadol_selection_pharmacy"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 app:cardBackgroundColor="#FFFFFF"
@@ -152,20 +153,11 @@
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:fontFamily="@font/opensans_condensed_semibold" />
-                    <ImageButton
-                        android:id="@+id/panadol_selection_pharmacy"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
-                        android:layout_marginStart="115dp"
-                        android:layout_marginTop="130dp"
-                        android:background="#5DBCC5"
-                        android:src="@drawable/add_quantity_plus_icon"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:id="@+id/bodrex_herbal_selection_pharmacy"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 app:cardBackgroundColor="#FFFFFF"
@@ -218,20 +210,11 @@
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:fontFamily="@font/opensans_condensed_semibold" />
-                    <ImageButton
-                        android:id="@+id/bodrex_herbal_selection_pharmacy"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
-                        android:layout_marginStart="115dp"
-                        android:layout_marginTop="130dp"
-                        android:background="#5DBCC5"
-                        android:src="@drawable/add_quantity_plus_icon"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:id="@+id/konidin_selection_pharmacy"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 app:cardBackgroundColor="#FFFFFF"
@@ -284,16 +267,6 @@
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:fontFamily="@font/opensans_condensed_semibold" />
-                    <ImageButton
-                        android:id="@+id/konidin_selection_pharmacy"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
-                        android:layout_marginStart="115dp"
-                        android:layout_marginTop="130dp"
-                        android:background="#5DBCC5"
-                        android:src="@drawable/add_quantity_plus_icon"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -320,6 +293,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <androidx.cardview.widget.CardView
+                android:id="@+id/obh_combi_selection_pharmacy"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 app:cardBackgroundColor="#FFFFFF"
@@ -372,20 +346,11 @@
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:fontFamily="@font/opensans_condensed_semibold" />
-                    <ImageButton
-                        android:id="@+id/obh_combi_selection_pharmacy"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
-                        android:layout_marginStart="115dp"
-                        android:layout_marginTop="130dp"
-                        android:background="#5DBCC5"
-                        android:src="@drawable/add_quantity_plus_icon"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:id="@+id/betadine_selection_pharmacy"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 app:cardBackgroundColor="#FFFFFF"
@@ -438,20 +403,11 @@
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:fontFamily="@font/opensans_condensed_semibold" />
-                    <ImageButton
-                        android:id="@+id/betadine_selection_pharmacy"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
-                        android:layout_marginStart="115dp"
-                        android:layout_marginTop="130dp"
-                        android:background="#5DBCC5"
-                        android:src="@drawable/add_quantity_plus_icon"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:id="@+id/bodrexin_selection_pharmacy"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 app:cardBackgroundColor="#FFFFFF"
@@ -504,17 +460,6 @@
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:fontFamily="@font/opensans_condensed_semibold" />
-                    <ImageButton
-                        android:id="@+id/bodrexin_selection_pharmacy"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
-                        android:layout_marginStart="115dp"
-                        android:layout_marginTop="130dp"
-                        android:background="#5DBCC5"
-                        android:src="@drawable/add_quantity_plus_icon"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
         </androidx.constraintlayout.widget.ConstraintLayout>
