@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/opensans_semibold"
+        android:fontFamily="@font/opensans_condensed_semibold"
         android:text="Appointment"
         android:textColor="@color/Black"
         android:textSize="26dp"
