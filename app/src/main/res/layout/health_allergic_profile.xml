@@ -297,5 +297,19 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextSizeCheck" />
 
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="143dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="@color/themecolor"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Next"
+        android:textSize="16dp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
