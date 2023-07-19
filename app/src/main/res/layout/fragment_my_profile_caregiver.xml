@@ -289,13 +289,16 @@
         </LinearLayout>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:layout_width="381dp"
+            android:layout_width="355dp"
             android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginHorizontal="10dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/bottom_navigation_bar_background_curved"
+            app:elevation="20dp"
             app:itemIconTint="@color/themecolor"
             app:itemTextColor="@color/themecolor"
+            app:labelVisibilityMode="auto"
             app:menu="@menu/bottom_navigation_bar_caregiver" />
     </LinearLayout>
 
