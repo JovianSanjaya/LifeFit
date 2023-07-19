@@ -55,7 +55,7 @@
         app:elevation="20dp"
         app:itemIconTint="@color/themecolor"
         app:itemTextColor="@color/themecolor"
-        app:labelVisibilityMode="auto"
+        app:labelVisibilityMode="selected"
         app:menu="@menu/bottom_navigation_bar_caregiver" />
 
 </FrameLayout>
