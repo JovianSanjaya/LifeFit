@@ -295,6 +295,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/bottom_navigation_bar_background_curved"
             app:itemIconTint="@color/themecolor"
+            app:itemTextColor="@color/themecolor"
             app:menu="@menu/bottom_navigation_bar_caregiver" />
     </LinearLayout>
 
