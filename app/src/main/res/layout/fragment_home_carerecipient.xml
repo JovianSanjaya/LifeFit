@@ -438,20 +438,6 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottomNavigationView"
-            android:layout_width="355dp"
-            android:layout_height="60dp"
-            android:background="@drawable/bottom_navigation_bar_background_curved"
-            android:elevation="20dp"
-            app:itemIconTint="@color/themecolor"
-            app:itemTextColor="@color/themecolor"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.964"
-            app:menu="@menu/bottom_navigation_bar"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

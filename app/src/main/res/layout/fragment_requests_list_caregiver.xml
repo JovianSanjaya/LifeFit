@@ -44,16 +44,4 @@
 
     </LinearLayout>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="355dp"
-        android:layout_height="60dp"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/bottom_navigation_bar_background_curved"
-        app:elevation="20dp"
-        app:itemIconTint="@color/themecolor"
-        app:itemTextColor="@color/themecolor"
-        app:labelVisibilityMode="selected"
-        app:menu="@menu/bottom_navigation_bar_caregiver" />
-
 </FrameLayout>

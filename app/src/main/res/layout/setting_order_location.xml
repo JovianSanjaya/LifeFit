@@ -119,19 +119,7 @@
                 android:textColor="#09051C"
                 android:textSize="16sp"
                 android:fontFamily="@font/opensans_regular"/>
-            <TextView
-                android:id="@+id/set_new_location_textview"
-                android:layout_width="120dp"
-                android:layout_height="25dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="70dp"
-                android:layout_marginTop="100dp"
-                android:text="Set Location"
-                android:textColor="#5DBCC5"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                android:fontFamily="@font/opensans_regular"/>
+
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 

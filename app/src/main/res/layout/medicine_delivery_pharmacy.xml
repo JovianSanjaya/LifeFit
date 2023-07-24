@@ -15,17 +15,19 @@
         android:src="@drawable/go_back_button_icon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/opensans_semibold"
         android:text="Pharmacy"
-        android:fontFamily="@font/opensans_bold"
         android:textColor="#000000"
         android:textSize="20sp"
-        android:layout_marginStart="145dp"
-        android:layout_marginTop="35dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageButton
         android:id="@+id/add_to_cart_button_medicine_delivery_pharmacy"
         android:layout_width="45dp"
@@ -79,23 +81,26 @@
                 android:fontFamily="@font/opensans_condensed_semibold" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
+
     <TextView
-        android:layout_width="120dp"
-        android:layout_height="25dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="Popular Products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="285dp"
         android:fontFamily="@font/opensans_condensed_semibold"
+        android:text="Popular Products"
         android:textColor="#000000"
-        android:textSize="18sp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="290dp" />
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="180dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="320dp">
+        android:layout_marginTop="320dp"
+        android:scrollbars="none">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -272,23 +277,26 @@
             </androidx.cardview.widget.CardView>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </HorizontalScrollView>
+
     <TextView
-        android:layout_width="120dp"
-        android:layout_height="25dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="Products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="500dp"
         android:fontFamily="@font/opensans_condensed_semibold"
+        android:text="Products"
         android:textColor="#000000"
-        android:textSize="18sp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="505dp" />
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="180dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="530dp">
+        android:layout_marginTop="530dp"
+        android:scrollbars="none">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">

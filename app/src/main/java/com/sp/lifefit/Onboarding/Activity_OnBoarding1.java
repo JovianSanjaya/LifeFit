@@ -17,7 +17,6 @@ public class Activity_OnBoarding1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_onboarding1);
-
         GetStartedbutton = findViewById(R.id.GetStartedbtn);
         GetStartedbutton.setOnClickListener(onclick);
 

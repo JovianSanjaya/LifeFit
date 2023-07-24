@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/card_background"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="My Wallet"
+        android:textColor="@color/themecolor"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/card"
+        android:layout_width="331dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_on_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="139dp"
+        android:fontFamily="@font/opensans_regular"
+        android:letterSpacing="0.1"
+        android:text="Alex Smith"
+        android:textColor="@color/White"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="@id/card"
+        app:layout_constraintTop_toTopOf="@id/card" />
+
+    <TextView
+        android:id="@+id/card_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="159dp"
+        android:fontFamily="@font/opensans_regular"
+        android:letterSpacing="0.1"
+        android:text="5282 3456 7890 1289"
+        android:textColor="@color/White"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="@id/card"
+        app:layout_constraintTop_toTopOf="@id/card" />
+
+    <TextView
+        android:id="@+id/card_expiry_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="159dp"
+        android:fontFamily="@font/opensans_regular"
+        android:letterSpacing="0.1"
+        android:text="09/25"
+        android:textColor="@color/White"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="@id/card"
+        app:layout_constraintTop_toTopOf="@id/card" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56.8dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="$5,750,20"
+        android:textColor="@color/White"
+        android:textSize="28dp"
+        app:layout_constraintStart_toStartOf="@id/card"
+        app:layout_constraintTop_toTopOf="@id/card" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="33dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Current Balance"
+        android:textColor="#D3D3D3"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="@id/card"
+        app:layout_constraintTop_toTopOf="@id/card" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addcardbtn"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/card_radius"
+        android:backgroundTint="@color/themecolor"
+        android:fontFamily="@font/opensans_regular"
+        android:text="+ Add Card"
+        android:textColor="@color/White"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

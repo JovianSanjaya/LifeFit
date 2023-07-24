@@ -40,6 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/meal_arrangement"
         android:layout_width="321dp"
         android:layout_height="96dp"
         android:layout_marginStart="40dp"
@@ -90,6 +91,7 @@
         </RelativeLayout>
     </com.google.android.material.card.MaterialCardView>
     <androidx.cardview.widget.CardView
+        android:id="@+id/housekeeping"
         android:layout_width="321dp"
         android:layout_height="96dp"
         app:cardBackgroundColor="#FFFFFF"
