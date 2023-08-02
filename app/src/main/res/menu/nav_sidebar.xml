@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/blue_person"
+            android:title="Profile" />
+        <item
+            android:title="History"
+            android:icon="@drawable/history_logo"/>
+    </group>
+
+    <group>
+        <item
+            android:title="Help Center"
+            android:icon="@drawable/help_center_logo"/>
+        <item
+            android:title="Edit Profile"
+            android:icon="@drawable/edit_profile_logo"/>
+        <item
+            android:title="Tems of Service"
+            android:icon="@drawable/tos_logo"/>
+    </group>
+
+    <group>
+        <item android:title="Exit"
+            android:icon="@drawable/exit_logo"/>
+    </group>
+</menu>
