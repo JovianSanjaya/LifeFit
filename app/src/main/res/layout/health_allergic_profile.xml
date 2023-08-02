@@ -309,7 +309,7 @@
         android:fontFamily="@font/opensans_regular"
         android:text="Next"
         android:textSize="16dp"
-        app:cornerRadius="15dp"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
