@@ -50,7 +50,7 @@
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="604dp"
+        android:layout_marginTop="560dp"
         android:layout_marginEnd="308dp"
         android:text="Location"
         android:textColor="#000000"
@@ -63,7 +63,7 @@
         android:id="@+id/location"
         android:layout_width="336dp"
         android:layout_height="46dp"
-        android:layout_marginTop="650dp"
+        android:layout_marginTop="600dp"
         android:layout_marginEnd="45dp"
         android:text="4517 Washington Ave. Manchester,  Kentucky 39495 "
         android:textColor="#000000"
@@ -75,7 +75,7 @@
         android:id="@+id/imageView6"
         android:layout_width="45dp"
         android:layout_height="40dp"
-        android:layout_marginTop="595dp"
+        android:layout_marginTop="550dp"
 
         android:layout_marginEnd="265dp"
         android:src="@drawable/markericon2"
@@ -103,7 +103,7 @@
         android:id="@+id/horizontalScrollView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="470dp"
         android:scrollbars="none"
         app:layout_constraintTop_toTopOf="parent">
 
