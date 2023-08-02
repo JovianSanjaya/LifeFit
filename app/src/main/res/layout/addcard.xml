@@ -108,6 +108,7 @@
                     android:layout_marginStart="10dp"
                     android:background="@null"
                     android:hint="09/27"
+                    android:textColor="#3C3B3B"
                     android:textColorHint="@color/LightGrey" />
 
 
@@ -142,6 +143,7 @@
                     android:layout_marginStart="10dp"
                     android:background="@null"
                     android:hint="123"
+                    android:textColor="#3C3B3B"
                     android:textColorHint="@color/LightGrey" />
 
 
@@ -250,7 +252,7 @@
                     android:layout_marginStart="10dp"
                     android:background="@null"
                     android:hint="Tham Tan"
-                    android:textColorHighlight="#595656"
+                    android:textColor="#3C3B3B"
                     android:textColorHint="@color/LightGrey" />
 
 
