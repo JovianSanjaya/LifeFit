@@ -156,7 +156,7 @@
                     android:layout_marginTop="5dp"
                     android:width="250dp"
                     android:fontFamily="@font/lato_regular"
-                    android:text="@string/bullet_points"
+                    android:text="•"
                     android:textColor="#9BCBC3"
                     android:textSize="12sp" />
 
