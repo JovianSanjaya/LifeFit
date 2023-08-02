@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="73dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paddingless_logo" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/opensans_condensed_semibolditalic"
+        android:text="LifeFit"
+        android:textColor="#5DBCC5"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <ImageButton
+            android:id="@+id/gobackbtn_profile_editor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="150dp"
+            android:background="@null"
+            android:src="@drawable/gobackbtn" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text="Terms of Service"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Last Updated July 2023"
+            android:textColor="#C1C1C1"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="440dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/long_grey_line" />
+
+        <ScrollView
+            android:layout_width="340dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Terms"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="1.1 Eligibility"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="You must be at least 18 years old to use the App. By using the App, you represent and warrant that you are at least 18 years old."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="1.2 License"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="The Company grants you a non-exclusive, non-transferable, revocable license to use the App for your personal, non-commercial use, subject to these Terms."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="1.3 Restrictions: You agree not to"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="@string/bullet_points"
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="2. User Accounts"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="2.1 Account Creation"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="In order to use certain features of the App, you may be required to create an account. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="2.2 Account Suspension and Termination"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="The Company reserves the right to suspend or terminate your account, at its discretion, if it believes you have violated these Terms or for any other reason without prior notice."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="3. Intellectual Property"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="3.1 Ownership"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="The App and all intellectual property rights associated with it are owned by the Company. You acknowledge that you have no ownership or proprietary rights in the App."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="3.2 User Content"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="By using the App, you grant the Company a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, adapt, publish, and distribute any content you submit through the App."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="4. Privacy"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="4.1 Privacy Policy"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="The Company's Privacy Policy [provide link] explains how your personal information is collected, used, and shared when you use the App. By using the App, you consent to the Company's collection, use, and disclosure of your personal information as described in the Privacy Policy."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="5. Limitation of Liability"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="5.1 Disclaimer of Warranties"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="The App is provided &quot;as is,&quot; without any warranties or conditions, express or implied. The Company disclaims all warranties, including but not limited to, fitness for a particular purpose, merchantability, and non-infringement."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="5.2 Limitation of Liability"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="To the extent permitted by law, the Company shall not be liable for any direct, indirect, incidental, consequential, or special damages arising out of or in connection with the use or inability to use the App."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="6. Governing Law and Dispute Resolution"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="6.1 Governing Law"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="These Terms shall be governed by and construed in accordance with the laws of Singapore."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="6.2 Dispute Resolution"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="Any disputes arising from these Terms shall be resolved through arbitration or mediation, as determined by the Company, in accordance with the applicable rules and procedures."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="7. Modifications to the Terms"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="13dp"
+                    android:text="7.1 Modifications to the Terms"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="100dp"
+                    android:width="250dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="7.1 The Company reserves the right to modify these Terms at any time. Updated Terms will be posted on the App or provided to you through other reasonable means. Your continued use of the App after the changes will constitute your acceptance of the modified Terms."
+                    android:textColor="#9BCBC3"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

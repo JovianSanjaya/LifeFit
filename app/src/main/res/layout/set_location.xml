@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/gobackbtn_set_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="150dp"
+            android:background="@null"
+            android:src="@drawable/gobackbtn" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="Set Your New Location"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="This data will be displayed in your account"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
+            android:text="profile for security"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_bg"
+            android:elevation="4dp"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="375dp"
+                android:layout_height="134dp"
+                android:background="#0FFFFFFF"
+                android:clickable="false"
+                android:gravity="center_horizontal"
+                android:padding="10dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="68dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/location_pin" />
+
+                    <EditText
+                        android:id="@+id/locationInput"
+                        android:layout_width="292dp"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:fontFamily="@font/opensans_regular"
+                        android:hint="Enter Your New Location Name"
+                        android:textColorHint="@color/LightGrey"
+                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/buttonLocate"
+                        android:layout_width="350dp"
+                        android:layout_height="60dp"
+                        android:backgroundTint="#F6F6F6"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="Set Location"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        app:cornerRadius="15dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="380dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="300dp"
+            android:backgroundTint="#5DBCC5"
+            android:fontFamily="@font/opensans_regular"
+            android:text="Confirm"
+            android:textAllCaps="false"
+            app:cornerRadius="15dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
