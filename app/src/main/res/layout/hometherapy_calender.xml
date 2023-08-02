@@ -1,217 +1,205 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/twosmallcirclesbg_new">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@drawable/twocirclebgsmall"
-        >
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/gobackbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="124dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="135dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center|center_horizontal"
+        android:text="Home Therapy"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="220dp"
+        android:fontFamily="@font/opensans_bold"
+        android:text="Working Hours"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="604dp"
+        android:layout_marginEnd="308dp"
+        android:text="Location"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="336dp"
+        android:layout_height="46dp"
+        android:text="4517 Washington Ave. Manchester,  Kentucky 39495 "
+        android:textColor="#000000"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="595dp"
+
+        android:layout_marginEnd="265dp"
+        android:src="@drawable/markericon2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/confirm_order_btn"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:height="59dp"
+        android:backgroundTint="#5DBCC5"
+        android:text="Confirm Order"
+        android:textColorLink="#5DBCC5"
+        android:textStyle="bold"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:scrollbars="none"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/imageButton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="31dp"
-                android:layout_marginTop="31dp"
-                android:background="@drawable/gobackbtn"/>
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="124dp"
-                android:layout_height="110dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="75dp"
-                android:fontFamily="@font/poppins_semibold"
-                android:gravity="center|center_horizontal"
-                android:text="Home Therapy"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            >
-
-            <CalendarView
-                android:id="@+id/calendarView2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </androidx.cardview.widget.CardView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <Space
-                android:layout_width="31dp"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:id="@+id/textView20"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Working Hours"
-                android:fontFamily="@font/opensans_bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"/>
-        </LinearLayout>
-
-        <HorizontalScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:scrollbars="none">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="482dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="31dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginEnd="20dp"
-                        android:layout_marginRight="20dp"
-                        android:backgroundTint="@color/themecolor"
-                        android:foregroundGravity="center"
-                        app:cardCornerRadius="24dp">
-
-                        <TextView
-                            android:id="@+id/textView21"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="14dp"
-                            android:fontFamily="@font/opensans_regular"
-                            android:gravity="center"
-                            android:text="11:00 am"
-                            android:textColor="#FFFFFF"
-                            android:textSize="20dp" />
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="20dp"
-                        android:backgroundTint="#D8D4D4"
-                        android:foregroundGravity="center"
-                        app:cardCornerRadius="24dp">
-
-                        <TextView
-                            android:id="@+id/textView22"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="14dp"
-                            android:fontFamily="@font/opensans_regular"
-                            android:gravity="center"
-                            android:text="13:00 pm"
-                            android:textColor="#000000"
-                            android:textSize="20dp" />
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="20dp"
-                        android:backgroundTint="@color/themecolor"
-                        android:foregroundGravity="center"
-                        app:cardCornerRadius="24dp">
-
-                        <TextView
-                            android:id="@+id/textView23"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="14dp"
-                            android:fontFamily="@font/opensans_regular"
-                            android:gravity="center"
-                            android:text="17:00 pm"
-                            android:textColor="#FFFFFF"
-                            android:textSize="20dp" />
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-            </LinearLayout>
-        </HorizontalScrollView>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="29dp"
-            android:layout_marginLeft="35dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView24"
-                android:layout_width="wrap_content"
+                android:layout_width="482dp"
                 android:layout_height="wrap_content"
-                android:text="Location"
-                android:textColor="#000000"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="34dp"
-                android:layout_height="match_parent"
-                android:src="@drawable/markericon2"
-
-                />
-        </LinearLayout>
-
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="35dp">
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/location"
+                <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4517 Washington Ave. Manchester,  Kentucky 39495 "
-                    android:textSize="17dp" />
-            </TableRow>
+                    android:layout_marginStart="31dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/themecolor"
+                    android:foregroundGravity="center"
+                    app:cardCornerRadius="24dp">
 
-        </TableLayout>
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="14dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:gravity="center"
+                        android:text="11:00 am"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
 
-        <FrameLayout
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#D8D4D4"
+                    android:foregroundGravity="center"
+                    app:cardCornerRadius="24dp">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="14dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:gravity="center"
+                        android:text="13:00 pm"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="@color/themecolor"
+                    android:foregroundGravity="center"
+                    app:cardCornerRadius="24dp">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="14dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:gravity="center"
+                        android:text="17:00 pm"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CalendarView
+            android:id="@+id/calendarView2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF" />
 
-            <Button
-                android:id="@+id/confirm_order_btn"
-                android:layout_width="166dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|right"
-                android:layout_margin="32dp"
-                android:height="59dp"
-                android:backgroundTint="#5DBCC5"
-                android:text="Confirm Order"
-                android:textColorLink="#5DBCC5"
-                android:textStyle="bold"
-                app:cornerRadius="24dp" />
-        </FrameLayout>
+    </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
