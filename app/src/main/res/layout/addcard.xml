@@ -84,6 +84,7 @@
                     android:layout_marginStart="10dp"
                     android:background="@null"
                     android:hint="1234 5678 9000 0000"
+                    android:inputType="number"
                     android:textColor="#3C3B3B"
                     android:textColorHint="@color/LightGrey" />
 
@@ -143,6 +144,7 @@
                     android:layout_marginStart="10dp"
                     android:background="@null"
                     android:hint="123"
+                    android:inputType="number"
                     android:textColor="#3C3B3B"
                     android:textColorHint="@color/LightGrey" />
 
