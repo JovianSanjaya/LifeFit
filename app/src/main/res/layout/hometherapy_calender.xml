@@ -199,6 +199,7 @@
             android:layout_height="match_parent"
             android:background="#FFFFFF"
             android:backgroundTint="#FFFFFF"
+            android:focusedMonthDateColor="#000000"
             android:unfocusedMonthDateColor="#000000"
             android:weekNumberColor="#000000"
             android:weekSeparatorLineColor="#676666" />
