@@ -84,6 +84,7 @@
                     android:layout_marginStart="10dp"
                     android:background="@null"
                     android:hint="1234 5678 9000 0000"
+                    android:textColor="#3C3B3B"
                     android:textColorHint="@color/LightGrey" />
 
 
@@ -125,7 +126,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.cardview.widget.CardView
-                android:layout_width="136dp"
+                android:layout_width="110dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="260dp"
@@ -135,7 +136,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <EditText
-                    android:id="@+id/expdate"
+                    android:id="@+id/cvv"
                     android:layout_width="120dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="10dp"
@@ -249,6 +250,7 @@
                     android:layout_marginStart="10dp"
                     android:background="@null"
                     android:hint="Tham Tan"
+                    android:textColorHighlight="#595656"
                     android:textColorHint="@color/LightGrey" />
 
 
