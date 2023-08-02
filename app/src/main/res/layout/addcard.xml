@@ -210,6 +210,7 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="350dp"
+                android:background="#E2E6EE"
                 app:cardCornerRadius="15dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -231,6 +232,7 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="106dp"
+                android:background="#E2E6EE"
                 app:cardCornerRadius="15dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
