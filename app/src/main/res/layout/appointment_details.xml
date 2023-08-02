@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/White">
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,11 +31,11 @@
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_width="113dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="80dp"
-        android:src="@drawable/drupul"
+        android:src="@drawable/doctor3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,7 +45,7 @@
         android:layout_marginStart="144dp"
         android:layout_marginTop="80dp"
         android:fontFamily="@font/opensans_bold"
-        android:text="Dr Upul"
+        android:text="Dr Luke Whitesell"
         android:textColor="@color/Black"
         android:textSize="22dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +58,7 @@
         android:layout_marginStart="144dp"
         android:layout_marginTop="128dp"
         android:fontFamily="@font/opensans_condensed_semibold"
-        android:text="Dentist"
+        android:text="Podiatrist"
         android:textColor="@color/themecolor"
         android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,7 +142,7 @@
         android:layout_marginTop="628dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/markericon2" />
+        android:src="@drawable/markericon2" />
 
     <TextView
         android:layout_width="320dp"
@@ -151,17 +152,6 @@
         android:text="4517 Washington Ave. Manchester,  Kentucky 39495 "
         android:textColor="#09051C"
         android:textSize="17dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/set_location"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="680dp"
-        android:text="set location"
-        android:textColor="#5DBCC5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -332,15 +322,15 @@
         android:id="@+id/nextbtn_appointmentdetails"
         android:layout_width="170dp"
         android:layout_height="48dp"
-        android:layout_marginTop="720dp"
+        android:layout_marginTop="680dp"
         android:background="@drawable/custom_button_15radius"
         android:backgroundTint="@color/themecolor"
         android:text="next"
         android:textColor="@color/White"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

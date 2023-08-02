@@ -218,10 +218,11 @@
         android:lineSpacingExtra="4dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ordernowbtn_housekeeping"
         android:layout_width="170dp"
         android:layout_height="48dp"
         android:layout_marginTop="728dp"
-        android:layout_marginEnd="35dp"
+        android:layout_marginEnd="32dp"
         android:background="@drawable/custom_button_15radius"
         android:backgroundTint="@color/themecolor"
         android:text="order now"

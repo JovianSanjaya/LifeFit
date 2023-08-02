@@ -9,8 +9,7 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="wrap_content"
-        android:layout_height="490dp"
-        android:layout_marginTop="70dp"
+        android:layout_height="520dp"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -24,16 +23,5 @@
         android:fontFamily="@font/montserrat_bold"
         android:text="Get Started"
         android:textColor="#5DBCC5" />
-
-    <TextView
-        android:id="@+id/alreadyhaveacc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="I already have account"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="17dp"
-        android:fontFamily="@font/montserrat_medium"
-        android:textColor="@color/White"
-        android:textSize="16dp"/>
 
 </LinearLayout>

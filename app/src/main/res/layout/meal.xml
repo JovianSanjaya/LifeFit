@@ -1,469 +1,471 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background_menu">
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="93dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="14dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/logo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="340dp"
-        android:layout_marginTop="24dp"
-        android:src="@drawable/profilepic"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/searchbar_meal"
-        android:layout_width="380dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="110dp"
-        android:background="@drawable/search_bar_background_curved"
-        app:iconifiedByDefault="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:queryBackground="@null"
-        app:queryHint="Anything you craving today?"
-        app:searchHintIcon="@color/White" />
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="380dp"
-        android:layout_height="125dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="188dp"
-        android:backgroundTint="#FDEBC9"
-        app:cardCornerRadius="12dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="184dp"
-                android:src="@drawable/burgerpic"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:text="Special Offer \nfor March"
-                android:textColor="@color/themecolor"
-                android:textSize="25dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="80dp"
-                android:fontFamily="@font/montserrat_medium"
-                android:text="Best time to satisfy \nyour crave"
-                android:textColor="@color/themecolor"
-                android:textSize="15dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-    </androidx.cardview.widget.CardView>
-
-    <ScrollView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="320dp">
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/textView64"
-                android:layout_width="343dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:fontFamily="@font/raleway_bold"
-                android:text="Today's special menu"
-                android:textColor="#000000"
-                android:textSize="27sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
 
-            <HorizontalScrollView
-                android:id="@+id/horizontalScrollView"
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="14dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchbar_meal"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/search_bar_background_curved"
+            app:iconifiedByDefault="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:queryBackground="@null"
+            app:queryHint="Anything you craving today?" />
+
+        <ImageView
+            android:id="@+id/cart_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/cart"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+         <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="188dp"
+            android:backgroundTint="#FDEBC9"
+            app:cardCornerRadius="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="184dp"
+                    android:src="@drawable/burgerpic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Special Offer \nfor March"
+                    android:textColor="@color/themecolor"
+                    android:textSize="25dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="Best time to satisfy \nyour crave"
+                    android:textColor="@color/themecolor"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="TextSizeCheck" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+         </androidx.cardview.widget.CardView>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="47dp"
-                android:scrollbars="none"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/Lamb_Salad"
-                        android:layout_width="200dp"
-                        android:layout_height="236dp"
-                        android:layout_marginStart="25dp"
-                        app:cardBackgroundColor="#F5D4C1"
-                        app:cardCornerRadius="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        >
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <ImageView
-                                android:layout_width="183dp"
-                                android:layout_height="156dp"
-                                android:layout_alignParentStart="true"
-                                android:layout_alignParentTop="true"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="3dp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:srcCompat="@drawable/lamb_salad_pic" />
-
-                            <TextView
-                                android:layout_width="170dp"
-                                android:layout_height="25dp"
-                                android:layout_alignParentStart="true"
-                                android:layout_alignParentTop="true"
-                                android:layout_marginStart="16dp"
-                                android:layout_marginTop="145dp"
-                                android:fontFamily="@font/raleway_bold"
-                                android:text="Lamb Salad"
-                                android:textColor="#000000"
-                                android:textSize="20dp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
-                                android:layout_width="60dp"
-                                android:layout_height="30dp"
-                                android:layout_alignParentStart="true"
-                                android:layout_alignParentTop="true"
-                                android:layout_marginStart="36dp"
-                                android:layout_marginTop="172dp"
-                                android:fontFamily="@font/raleway_bold"
-                                android:text="$15.00"
-                                android:textColor="#191D21"
-                                android:textSize="18sp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="27dp"
-                                android:layout_alignParentStart="true"
-                                android:layout_alignParentTop="true"
-                                android:layout_marginStart="16dp"
-                                android:layout_marginTop="200dp"
-                                android:fontFamily="@font/raleway_medium"
-                                android:text="Saladstop | Western"
-                                android:textColor="#191D21"
-                                android:textSize="18sp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <ImageView
-                                android:layout_width="10dp"
-                                android:layout_height="31dp"
-                                android:layout_marginStart="16dp"
-                                android:layout_marginTop="172dp"
-                                android:src="@drawable/whitecircle"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-
-                        </androidx.constraintlayout.widget.ConstraintLayout>
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/Spicy_Crab_Salad"
-                        android:layout_width="200dp"
-                        android:layout_height="236dp"
-                        android:layout_marginStart="244dp"
-                        app:cardBackgroundColor="#DED2F9"
-                        app:cardCornerRadius="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <ImageView
-                                android:layout_width="130dp"
-                                android:layout_height="121dp"
-                                android:layout_alignParentStart="true"
-                                android:layout_alignParentTop="true"
-                                android:layout_marginStart="35dp"
-                                android:layout_marginTop="16dp"
-                                android:src="@drawable/spicy_crab_salad_pic"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
-                                android:layout_width="170dp"
-                                android:layout_height="28dp"
-                                android:layout_alignParentStart="true"
-                                android:layout_alignParentTop="true"
-                                android:layout_marginStart="25dp"
-                                android:layout_marginTop="145dp"
-                                android:fontFamily="@font/raleway_bold"
-                                android:text="Spicy Crab Salad"
-                                android:textColor="#000000"
-                                android:textSize="20sp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
-                                android:layout_width="60dp"
-                                android:layout_height="30dp"
-                                android:layout_alignParentStart="true"
-                                android:layout_alignParentTop="true"
-                                android:layout_marginStart="36dp"
-                                android:layout_marginTop="172dp"
-                                android:fontFamily="@font/raleway_bold"
-                                android:text="$15.00"
-                                android:textColor="#191D21"
-                                android:textSize="18sp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <ImageView
-                                android:layout_width="10dp"
-                                android:layout_height="31dp"
-                                android:layout_marginStart="24dp"
-                                android:layout_marginTop="172dp"
-                                android:src="@drawable/whitecircle"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
-                                android:layout_width="180dp"
-                                android:layout_height="25dp"
-                                android:layout_alignParentStart="true"
-                                android:layout_alignParentTop="true"
-                                android:layout_marginStart="24dp"
-                                android:layout_marginTop="200dp"
-                                android:fontFamily="@font/raleway_medium"
-                                android:text="Saladstop | Western"
-                                android:textColor="#191D21"
-                                android:textSize="18sp"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                        </androidx.constraintlayout.widget.ConstraintLayout>
-                    </androidx.cardview.widget.CardView>
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </HorizontalScrollView>
-
-            <TextView
-                android:id="@+id/textView65"
-                android:layout_width="343dp"
-                android:layout_height="31dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="295dp"
-                android:fontFamily="@font/raleway_bold"
-                android:text="Food Menu List"
-                android:textColor="#000000"
-                android:textSize="24sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/Salad_Wrap"
-                android:layout_width="275dp"
-                android:layout_height="300dp"
-                android:layout_marginStart="71dp"
-                app:cardBackgroundColor="#FDEBC9"
-                app:cardCornerRadius="16dp"
-                android:layout_marginTop="12dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView65">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_width="195dp"
-                        android:layout_height="173dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="16dp"
-                        android:src="@drawable/salad_wrap_pic"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="196dp"
-                        android:fontFamily="@font/raleway_bold"
-                        android:text="Salad Wrap"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginStart="55dp"
-                        android:layout_marginTop="226dp"
-                        android:fontFamily="@font/raleway_bold"
-                        android:text="$15.00"
-                        android:textColor="#191D21"
-                        android:textSize="18sp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <ImageView
-                        android:layout_width="10dp"
-                        android:layout_height="30dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="226dp"
-                        android:src="@drawable/whitecircle"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:layout_width="180dp"
-                        android:layout_height="25dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="252dp"
-                        android:fontFamily="@font/raleway_medium"
-                        android:text="Saladstop | Western"
-                        android:textColor="#191D21"
-                        android:textSize="18sp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/Chicken_Wrap"
-                android:layout_width="275dp"
-                android:layout_height="300dp"
-                app:cardBackgroundColor="#C9F0F3"
-                app:cardCornerRadius="16dp"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginStart="71dp"
-                android:layout_marginTop="660dp">
-                <androidx.constraintlayout.widget.ConstraintLayout
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="320dp">
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="343dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:fontFamily="@font/raleway_bold"
+                    android:text="Today's special menu"
+                    android:textColor="#000000"
+                    android:textSize="27sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/horizontalScrollView"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginBottom="245dp"/>
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="47dp"
+                    android:scrollbars="none"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
-                    <ImageView
-                        android:layout_width="195dp"
-                        android:layout_height="173dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/spicy_crab_salad_pic"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="196dp"
-                        android:fontFamily="@font/raleway_bold"
-                        android:text="Chicken Wrap"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/Lamb_Salad"
+                            android:layout_width="200dp"
+                            android:layout_height="236dp"
+                            android:layout_marginStart="25dp"
+                            app:cardBackgroundColor="#F5D4C1"
+                            app:cardCornerRadius="16dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            >
 
-                    <TextView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginStart="55dp"
-                        android:layout_marginTop="226dp"
-                        android:text="$15.00"
-                        android:textColor="#191D21"
-                        android:textSize="18sp"
-                        android:fontFamily="@font/raleway_bold"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="25dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="252dp"
-                        android:text="Saladstop | Western"
-                        android:textColor="#191D21"
-                        android:textSize="18sp"
-                        android:fontFamily="@font/raleway_medium"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"/>
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="183dp"
+                                    android:layout_height="156dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="3dp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/lamb_salad_pic" />
+
+                                <TextView
+                                    android:layout_width="170dp"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginTop="145dp"
+                                    android:fontFamily="@font/raleway_bold"
+                                    android:text="Lamb Salad"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:layout_width="60dp"
+                                    android:layout_height="30dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="36dp"
+                                    android:layout_marginTop="172dp"
+                                    android:fontFamily="@font/raleway_bold"
+                                    android:text="$15.00"
+                                    android:textColor="#191D21"
+                                    android:textSize="18sp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="27dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginTop="200dp"
+                                    android:fontFamily="@font/raleway_medium"
+                                    android:text="Saladstop | Western"
+                                    android:textColor="#191D21"
+                                    android:textSize="18sp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:layout_width="10dp"
+                                    android:layout_height="31dp"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginTop="172dp"
+                                    android:src="@drawable/whitecircle"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
 
 
-                    <ImageView
-                        android:layout_width="10dp"
-                        android:layout_height="30dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="226dp"
-                        android:src="@drawable/whitecircle"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/Spicy_Crab_Salad"
+                            android:layout_width="200dp"
+                            android:layout_height="236dp"
+                            android:layout_marginStart="244dp"
+                            app:cardBackgroundColor="#DED2F9"
+                            app:cardCornerRadius="16dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="130dp"
+                                    android:layout_height="121dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="35dp"
+                                    android:layout_marginTop="16dp"
+                                    android:src="@drawable/spicy_crab_salad_pic"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:layout_width="170dp"
+                                    android:layout_height="28dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_marginTop="145dp"
+                                    android:fontFamily="@font/raleway_bold"
+                                    android:text="Spicy Crab Salad"
+                                    android:textColor="#000000"
+                                    android:textSize="20sp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:layout_width="60dp"
+                                    android:layout_height="30dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="36dp"
+                                    android:layout_marginTop="172dp"
+                                    android:fontFamily="@font/raleway_bold"
+                                    android:text="$15.00"
+                                    android:textColor="#191D21"
+                                    android:textSize="18sp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:layout_width="10dp"
+                                    android:layout_height="31dp"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="172dp"
+                                    android:src="@drawable/whitecircle"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:layout_width="180dp"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="200dp"
+                                    android:fontFamily="@font/raleway_medium"
+                                    android:text="Saladstop | Western"
+                                    android:textColor="#191D21"
+                                    android:textSize="18sp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.cardview.widget.CardView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="343dp"
+                    android:layout_height="31dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="295dp"
+                    android:fontFamily="@font/raleway_bold"
+                    android:text="Food Menu List"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
 
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </androidx.cardview.widget.CardView>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </ScrollView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Salad_Wrap"
+                    android:layout_width="275dp"
+                    android:layout_height="300dp"
+                    android:layout_marginStart="71dp"
+                    app:cardBackgroundColor="#FDEBC9"
+                    app:cardCornerRadius="16dp"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView65">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="195dp"
+                            android:layout_height="173dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="16dp"
+                            android:src="@drawable/salad_wrap_pic"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="196dp"
+                            android:fontFamily="@font/raleway_bold"
+                            android:text="Salad Wrap"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="55dp"
+                            android:layout_marginTop="226dp"
+                            android:fontFamily="@font/raleway_bold"
+                            android:text="$15.00"
+                            android:textColor="#191D21"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="226dp"
+                            android:src="@drawable/whitecircle"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="180dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="252dp"
+                            android:fontFamily="@font/raleway_medium"
+                            android:text="Saladstop | Western"
+                            android:textColor="#191D21"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Chicken_Wrap"
+                    android:layout_width="275dp"
+                    android:layout_height="300dp"
+                    app:cardBackgroundColor="#C9F0F3"
+                    app:cardCornerRadius="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="660dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="195dp"
+                            android:layout_height="173dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="16dp"
+                            app:srcCompat="@drawable/spicy_crab_salad_pic"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="196dp"
+                            android:fontFamily="@font/raleway_bold"
+                            android:text="Chicken Wrap"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="55dp"
+                            android:layout_marginTop="226dp"
+                            android:text="$15.00"
+                            android:textColor="#191D21"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/raleway_bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="252dp"
+                            android:text="Saladstop | Western"
+                            android:textColor="#191D21"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/raleway_medium"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="226dp"
+                            android:src="@drawable/whitecircle"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

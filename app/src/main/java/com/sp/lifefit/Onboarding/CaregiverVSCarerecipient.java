@@ -6,9 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 
-import com.sp.lifefit.CareRecipient.LambSaladDetails;
+import com.sp.lifefit.Onboarding.CareRecipient.LoginCareRecipient;
+import com.sp.lifefit.Onboarding.Caregiver.LoginCareGiver;
 import com.sp.lifefit.R;
 
 public class CaregiverVSCarerecipient extends AppCompatActivity {
@@ -28,7 +28,7 @@ public class CaregiverVSCarerecipient extends AppCompatActivity {
         carerecipientbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CaregiverVSCarerecipient.this, LambSaladDetails.class);
+                Intent intent = new Intent(CaregiverVSCarerecipient.this, LoginCareRecipient.class );
                 startActivity(intent);
                 finish();
             }
@@ -37,7 +37,7 @@ public class CaregiverVSCarerecipient extends AppCompatActivity {
         caregiverbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CaregiverVSCarerecipient.this, Login.class);
+                Intent intent = new Intent(CaregiverVSCarerecipient.this, LoginCareGiver.class);
                 startActivity(intent);
                 finish();
             }

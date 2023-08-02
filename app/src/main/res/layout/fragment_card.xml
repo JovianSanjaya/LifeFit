@@ -48,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="159dp"
+        android:layout_marginTop="156dp"
         android:fontFamily="@font/opensans_regular"
         android:letterSpacing="0.1"
         android:text="5282 3456 7890 1289"

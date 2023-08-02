@@ -146,7 +146,7 @@
         android:textSize="14sp"
         android:textStyle="bold"
         android:fontFamily="@font/opensans_regular"/>
-    <ImageButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/checkout_drug_button_my_cart"
         android:layout_width="180dp"
         android:layout_height="50dp"
@@ -154,17 +154,9 @@
         android:layout_marginTop="650dp"
         android:background="@drawable/add_cart_button_curved"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-    <TextView
-        android:layout_width="130dp"
-        android:layout_height="25dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="Checkout"
-        android:fontFamily="@font/opensans_bold"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        android:layout_marginStart="245dp"
-        android:layout_marginTop="663dp" />
+        android:text="checkout"
+        android:textColor="@color/White"
+        android:fontFamily="@font/opensans_bold"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,11 +7,13 @@
     <androidx.cardview.widget.CardView
         android:layout_width="335dp"
         android:layout_height="120dp"
-        app:cardBackgroundColor="#FFFFFF"
+        app:cardBackgroundColor="#FDEBC9"
         app:cardCornerRadius="22dp"
-        app:cardElevation="10dp"
+        android:paddingBottom="50dp"
+        android:layout_marginStart="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+       >
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -24,6 +26,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="18dp"/>
+
             <TextView
                 android:id="@+id/row_food_name"
                 android:layout_width="170dp"
@@ -31,11 +34,12 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="110dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/opensans_condensed_semibold"
                 android:text="Spicy Crab Salad"
                 android:textColor="#09051C"
-                android:textSize="19sp"
-                android:fontFamily="@font/opensans_condensed_semibold"/>
+                android:textSize="19sp" />
+
             <TextView
                 android:id="@+id/row_restaurant_name"
                 android:layout_width="150dp"
@@ -60,18 +64,19 @@
                 android:textColor="#FF9E43"
                 android:textSize="20sp"
                 android:fontFamily="@font/opensans_bold"/>
+
             <TextView
                 android:id="@+id/row_quantity_amount"
                 android:layout_width="20dp"
                 android:layout_height="30dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="270dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginStart="291dp"
+                android:layout_marginTop="39dp"
+                android:fontFamily="@font/opensans_regular"
                 android:text="1x"
                 android:textColor="#181818"
-                android:textSize="17sp"
-                android:fontFamily="@font/opensans_regular"/>
+                android:textSize="17sp" />
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

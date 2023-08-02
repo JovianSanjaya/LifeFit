@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/placedrawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:ignore="all"
-    tools:openDrawer="start">
+    android:scrollbars="none"
+    android:background="@drawable/medicine_delivery_pharmacy_background">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/medicine_delivery_pharmacy_background">
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/textView67"
@@ -21,21 +17,24 @@
             android:layout_marginStart="60dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/opensans_condensed_semibold"
-            android:text="Hey, Mr Tham"
+            android:text="Hey, "
             android:textColor="@color/White"
             android:textSize="32dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:layout_width="130dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="288dp"
-            android:layout_marginBottom="732dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/logo"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/opensans_condensed_semibold"
+            android:text="Mr Tham"
+            android:textColor="@color/White"
+            android:textSize="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/materialCardView"
@@ -179,9 +178,9 @@
             android:layout_width="333dp"
             android:layout_height="151dp"
             android:layout_marginStart="42dp"
+            android:layout_marginTop="5dp"
             app:cardBackgroundColor="#DCEDF9"
             app:cardCornerRadius="16dp"
-            android:layout_marginTop="5dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView66">
 
@@ -239,11 +238,11 @@
             android:layout_width="147dp"
             android:layout_height="164dp"
             android:layout_marginStart="42dp"
+            android:layout_marginTop="18dp"
             app:cardBackgroundColor="#FAF0DB"
             app:cardCornerRadius="22dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Home_Personal_Care_Nursing"
-            android:layout_marginTop="18dp">
+            app:layout_constraintTop_toBottomOf="@+id/Home_Personal_Care_Nursing">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -290,12 +289,12 @@
             android:id="@+id/Home_Doctor"
             android:layout_width="147dp"
             android:layout_height="164dp"
+            android:layout_marginStart="39dp"
             android:layout_marginTop="18dp"
             app:cardBackgroundColor="#DFFADF"
             app:cardCornerRadius="22dp"
             app:layout_constraintStart_toEndOf="@+id/Home_Therapy"
-            app:layout_constraintTop_toBottomOf="@id/Home_Personal_Care_Nursing"
-            android:layout_marginStart="39dp">
+            app:layout_constraintTop_toBottomOf="@id/Home_Personal_Care_Nursing">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -342,25 +341,27 @@
             android:id="@+id/Tele_Consultation"
             android:layout_width="147dp"
             android:layout_height="164dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="20dp"
             app:cardBackgroundColor="#F9D0D3"
             app:cardCornerRadius="22dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/Home_Therapy"
-            android:layout_marginStart="42dp"
-            android:layout_marginTop="20dp">
+            app:layout_constraintTop_toBottomOf="@id/Home_Therapy">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:id="@+id/teleconsultimageView"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    app:srcCompat="@drawable/tele_consultation_icon"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="13dp"
-                    android:layout_marginTop="12dp"/>
+                    android:layout_marginTop="12dp"
+                    app:srcCompat="@drawable/tele_consultation_icon" />
+
                 <TextView
                     android:layout_width="136dp"
                     android:layout_height="21dp"
@@ -368,10 +369,11 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/opensans_condensed_semibold"
                     android:text="Tele-Consultation"
                     android:textColor="#000000"
-                    android:textSize="16sp"
-                    android:fontFamily="@font/opensans_condensed_semibold" />
+                    android:textSize="16sp" />
+
                 <TextView
                     android:layout_width="128dp"
                     android:layout_height="61dp"
@@ -379,10 +381,10 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="91dp"
-                    android:textSize="13sp"
                     android:fontFamily="@font/opensans_regular"
+                    android:text="Online Consultations with a Doctor"
                     android:textColor="#605C5C"
-                    android:text="Online Consultations with a Doctor" />
+                    android:textSize="13sp" />
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -391,54 +393,56 @@
             android:id="@+id/Medicine_Delivery"
             android:layout_width="147dp"
             android:layout_height="164dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="20dp"
             app:cardBackgroundColor="#FBDFF6"
             app:cardCornerRadius="22dp"
             app:layout_constraintStart_toEndOf="@id/Tele_Consultation"
-            app:layout_constraintTop_toBottomOf="@id/Home_Doctor"
-            android:layout_marginStart="39dp"
-            android:layout_marginTop="20dp">
+            app:layout_constraintTop_toBottomOf="@id/Home_Doctor">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
-                    android:id="@+id/Medicine_Delivery"
+                    android:id="@+id/Medicine_Delivery_imageview"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    app:srcCompat="@drawable/medicine_delivery_icon"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="12dp"/>
+                    android:layout_marginTop="12dp"
+                    app:srcCompat="@drawable/medicine_delivery_icon" />
+
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textView11"
                     android:layout_width="138dp"
                     android:layout_height="21dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="7dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/opensans_condensed_semibold"
                     android:text="Medicine Delivery"
                     android:textColor="#000000"
-                    android:textSize="16sp"
-                    android:fontFamily="@font/opensans_condensed_semibold" />
+                    android:textSize="16sp" />
+
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/textView211"
                     android:layout_width="136dp"
                     android:layout_height="61dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="7dp"
                     android:layout_marginTop="91dp"
-                    android:textSize="13sp"
                     android:fontFamily="@font/opensans_regular"
+                    android:text="Same-Day Delivery right to your Doorstep"
                     android:textColor="#605C5C"
-                    android:text="Same-Day Delivery right to your Doorstep" />
+                    android:textSize="13sp" />
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.drawerlayout.widget.DrawerLayout>
+</ScrollView>

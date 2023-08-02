@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,39 +16,145 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LifeFit"
         tools:targetApi="31">
+        <activity
+            android:name=".CareGiver.MainCareGiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
 
+        <activity
+            android:name=".Onboarding.Caregiver.ReadyToUseCareGiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <activity
+            android:name=".Onboarding.Caregiver.CompleteRegistrationCareGiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <activity
+            android:name=".Onboarding.Caregiver.UploadPhotoCareGiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".Onboarding.Caregiver.SignUpCareGiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".CareRecipient.AddCard.AddCard"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".Onboarding.CareRecipient.CompleteRegistrationCareRecipient"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Onboarding.CareRecipient.ReadyToUseCareRecipient"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Onboarding.CareRecipient.UploadPhotoCareRecipient"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Miscellaneous.About"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Onboarding.Caregiver.LoginCareGiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.HomePersonal.MealArrangement.CartActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.HomePersonal.MealArrangement.MealMenuDetails"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.HomePersonal.MealArrangement.MealMenuList"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.TeleConsultation.TeleconsultationAppointment"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.TeleConsultation.TeleConsultationDoctorList"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.MedicineDelivery.MyCartMedicineDelivery"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.MedicineDelivery.OBHCombiPlus"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.MedicineDelivery.MedicinePharmacy"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.HomeTherapy.HomeTherapyCalendar"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.HomeDoctor.DrLukeWhitesell"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.HomePersonal.Housekeeping.HouseKeepingCalendar"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Payment.PaymentSuccessful"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Payment.Payment"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.HomePersonal.MealArrangement.MealLocation"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Onboarding.CareRecipient.HealthProfileCareRecipient"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Onboarding.CareRecipient.SetLocationCareRecipient"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Onboarding.Activity_OnBoarding1"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Onboarding.CaregiverVSCarerecipient"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".CareRecipient.Housekeeping"
+            android:name=".CareRecipient.HomePersonal.Housekeeping.Housekeeping"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".CareRecipient.MealMenu"
+            android:name=".CareRecipient.MedicineDelivery.MedicineDelivery"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".CareRecipient.MedicineDelivery"
+            android:name=".CareRecipient.TeleConsultation.TeleConsultation"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".CareRecipient.TeleConsultation"
+            android:name=".CareRecipient.HomeDoctor.HomeDoctor"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".CareRecipient.HomeDoctor"
+            android:name=".CareRecipient.HomePersonal.HomePersonalCare"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity
-            android:name=".CareRecipient.HomePersonalCare"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Onboarding.SplashScreen"
             android:exported="true"
@@ -56,17 +166,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Onboarding.SignUp"
+            android:name=".Onboarding.CareRecipient.SignUpCareRecipient"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".Onboarding.Login"
+            android:name=".Onboarding.CareRecipient.LoginCareRecipient"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-
-        <activity android:name=".CareRecipient.LambSaladDetails"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.MainCareRecipient"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.HomeTherapy.HomeTherapy"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareGiver.Chat.ChatCareGiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>

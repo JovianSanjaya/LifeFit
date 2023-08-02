@@ -5,16 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/setting_order_location">
-    <ImageButton
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/go_back_button_setting_order_location"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
         android:background="@drawable/go_back_button_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="42dp"
         android:src="@drawable/go_back_button_icon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:layout_width="130dp"
         android:layout_height="40dp"
@@ -123,25 +133,18 @@
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
-    <ImageButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/confirm_location_button_shipping"
         android:layout_width="290dp"
         android:layout_height="60dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="635dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="692dp"
         android:background="@drawable/bottom_navigation_bar_background_curved"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Confirm location"
+        android:textColor="@color/themecolor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <TextView
-        android:layout_width="170dp"
-        android:layout_height="30dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="Confirm Location"
-        android:fontFamily="@font/montserrat_bold"
-        android:textColor="#5DBCC5"
-        android:textSize="18sp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="653dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

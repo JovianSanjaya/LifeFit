@@ -90,67 +90,50 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="121dp"
+                        android:layout_height="51dp"
                         android:layout_marginStart="31dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginEnd="20dp"
                         android:layout_marginRight="20dp"
-                        android:foregroundGravity="center"
-                        app:cardBackgroundColor="#5DBCC5"
-                        app:cardCornerRadius="24dp">
+                        android:background="@drawable/custom_button_15radius"
+                        android:backgroundTint="@color/themecolor"
+                        android:text="11.00 am"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/White"/>
 
-                        <TextView
-                            android:id="@+id/textView21"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="14dp"
-                            android:fontFamily="@font/opensans_regular"
-                            android:gravity="center"
-                            android:text="11:00 am"
-                            android:textColor="#FFFFFF"
-                            android:textSize="20dp" />
-                    </androidx.cardview.widget.CardView>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="121dp"
+                        android:layout_height="51dp"
+                        android:layout_marginStart="31dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/custom_button_15radius"
+                        android:backgroundTint="#D8D4D4"
+                        android:text="03.00 pm"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/Black"/>
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="20dp"
-                        android:foregroundGravity="center"
-                        app:cardBackgroundColor="#D8D4D4"
-                        app:cardCornerRadius="24dp">
 
-                        <TextView
-                            android:id="@+id/textView22"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="14dp"
-                            android:gravity="center"
-                            android:fontFamily="@font/opensans_regular"
-                            android:text="13:00 pm"
-                            android:textSize="20dp" />
-                    </androidx.cardview.widget.CardView>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="121dp"
+                        android:layout_height="51dp"
+                        android:layout_marginStart="31dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/custom_button_15radius"
+                        android:backgroundTint="@color/themecolor"
+                        android:text="01.00 pm"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/White"/>
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="20dp"
-                        android:foregroundGravity="center"
-                        app:cardBackgroundColor="#5DBCC5"
-                        app:cardCornerRadius="24dp">
-
-                        <TextView
-                            android:id="@+id/textView23"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="14dp"
-                            android:gravity="center"
-                            android:fontFamily="@font/opensans_regular"
-                            android:text="17:00 pm"
-                            android:textColor="#FFFFFF"
-                            android:textSize="20dp" />
-                    </androidx.cardview.widget.CardView>
                 </LinearLayout>
             </LinearLayout>
         </HorizontalScrollView>
@@ -198,15 +181,7 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/set_location"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="set location"
-                    android:textColor="#5DBCC5" />
-            </TableRow>
+                android:layout_height="match_parent"/>
 
         </TableLayout>
 
@@ -215,7 +190,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/confirm_order_btn"
                 android:layout_width="166dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|right"

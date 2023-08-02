@@ -5,26 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/medicine_delivery_pharmacy_background">
-    <ImageButton
-        android:id="@+id/go_back_button_medicine_delivery_pharmacy"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/go_back_button_background"
-        android:src="@drawable/go_back_button_icon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="36dp"
-        android:fontFamily="@font/opensans_semibold"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_semibold"
         android:text="Pharmacy"
-        android:textColor="#000000"
-        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:textSize="35dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,6 +35,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="90dp"
         android:queryHint="Search drugs?"
+        android:queryBackground="@color/White"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/search_bar_background_curved" />
@@ -162,7 +153,7 @@
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/bodrex_herbal_selection_pharmacy"
+                android:id="@+id/obh_combi_plus"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 app:cardBackgroundColor="#FFFFFF"
@@ -189,7 +180,7 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="95dp"
-                        android:text="Bodrex Herbal"
+                        android:text="OBH Combi Plus"
                         android:textColor="#000000"
                         android:textSize="15sp"
                         android:fontFamily="@font/opensans_condensed_semibold" />
@@ -284,7 +275,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="500dp"
         android:fontFamily="@font/opensans_condensed_semibold"
-        android:text="Products"
+        android:text="Products On Sale"
         android:textColor="#000000"
         android:textSize="23sp"
         app:layout_constraintStart_toStartOf="parent"

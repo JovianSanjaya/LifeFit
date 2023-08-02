@@ -5,41 +5,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/home_personal_care_nursing">
+
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="212dp"
+        android:src="@drawable/twopersonicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:layout_width="252dp"
         android:layout_height="47dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="122dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="210dp"
+        android:fontFamily="@font/opensans_condensed_semibold"
         android:text="Home Personal Care &amp; Nursing "
         android:textColor="#FFFFFF"
         android:textSize="22sp"
-        android:fontFamily="@font/opensans_condensed_semibold"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="250dp"
         android:layout_height="42dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="122dp"
-        android:layout_marginTop="235dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/opensans_condensed_semibold"
         android:text="Trained local caregivers can assist you and your loved one’s activities"
         android:textColor="#FFECEC"
         android:textSize="15sp"
-        android:fontFamily="@font/opensans_condensed_semibold"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageButton
         android:id="@+id/go_back_button_home_personal_care_nursing"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/go_back_button_background"
-        android:src="@drawable/go_back_button_icon"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:src="@drawable/gobackbtn2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.card.MaterialCardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/meal_arrangement"
         android:layout_width="321dp"
         android:layout_height="96dp"
@@ -89,7 +100,8 @@
                 android:textSize="12sp"
                 android:fontFamily="@font/opensans_regular"/>
         </RelativeLayout>
-    </com.google.android.material.card.MaterialCardView>
+    </androidx.cardview.widget.CardView>
+
     <androidx.cardview.widget.CardView
         android:id="@+id/housekeeping"
         android:layout_width="321dp"
@@ -141,104 +153,5 @@
                 android:fontFamily="@font/opensans_regular"/>
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
-    <androidx.cardview.widget.CardView
-        android:layout_width="321dp"
-        android:layout_height="96dp"
-        app:cardBackgroundColor="#FFFFFF"
-        app:cardCornerRadius="22dp"
-        app:cardElevation="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="510dp">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/medicalescortimageView"
-                android:layout_width="48dp"
-                android:layout_height="58dp"
-                app:srcCompat="@drawable/medical_escort_icon"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="17dp"/>
-
-            <TextView
-                android:layout_width="152dp"
-                android:layout_height="24dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="87dp"
-                android:layout_marginTop="20dp"
-                android:text="Medical Escort"
-                android:textColor="#09051C"
-                android:textSize="17sp"
-                android:fontFamily="@font/opensans_regular"/>
-
-            <TextView
-                android:layout_width="210dp"
-                android:layout_height="24dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="88dp"
-                android:layout_marginTop="46dp"
-                android:textSize="12sp"
-                android:textColor="#605C5C"
-                android:text="Escorting elderlies for medical visits"
-                android:fontFamily="@font/opensans_regular"/>
-        </RelativeLayout>
-    </androidx.cardview.widget.CardView>
-    <androidx.cardview.widget.CardView
-        android:layout_width="321dp"
-        android:layout_height="96dp"
-        app:cardBackgroundColor="#FFFFFF"
-        app:cardCornerRadius="22dp"
-        app:cardElevation="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="615dp">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/companionshipimageView"
-                android:layout_width="48dp"
-                android:layout_height="58dp"
-                app:srcCompat="@drawable/companionship_icon"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="17dp"/>
-
-            <TextView
-                android:layout_width="152dp"
-                android:layout_height="24dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="87dp"
-                android:layout_marginTop="20dp"
-                android:text="Companionship"
-                android:textColor="#09051C"
-                android:textSize="17sp"
-                android:fontFamily="@font/opensans_regular"/>
-
-            <TextView
-                android:layout_width="190dp"
-                android:layout_height="24dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="88dp"
-                android:layout_marginTop="46dp"
-                android:textSize="12sp"
-                android:textColor="#605C5C"
-                android:text="Accompanying the elderlies"
-                android:fontFamily="@font/opensans_regular"/>
-        </RelativeLayout>
-    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

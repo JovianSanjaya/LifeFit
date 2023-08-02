@@ -15,13 +15,16 @@
             android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
             app:srcCompat="@drawable/gobackbtn2" />
 
         <TextView
             android:id="@+id/textView37"
             android:layout_width="match_parent"
             android:layout_height="79dp"
-            android:layout_marginTop="170dp"
+            android:layout_marginTop="130dp"
             android:gravity="center"
             android:text="Home Therapy"
             android:textColor="#FFFFFF"
@@ -32,6 +35,7 @@
             android:layout_height="76dp"
             android:layout_marginHorizontal="18dp"
             app:cardCornerRadius="14dp"
+            app:cardBackgroundColor="@color/White"
             >
 
             <LinearLayout
@@ -45,7 +49,7 @@
                     android:layout_width="136dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    tools:srcCompat="@drawable/therapyicon" />
+                    android:src="@drawable/therapyicon" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -70,6 +74,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/LightGrey"
                         android:text="Physiotherapy , Speech and Ocupational" />
                 </LinearLayout>
             </LinearLayout>
@@ -86,7 +91,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="10dp"
                 android:layout_marginEnd="10dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@color/White">
 
                 <LinearLayout
                     android:layout_width="87dp"
@@ -98,7 +104,7 @@
                         android:id="@+id/imageView11"
                         android:layout_width="match_parent"
                         android:layout_height="41dp"
-                        tools:srcCompat="@drawable/markericon" />
+                        android:src="@drawable/markericon" />
 
                     <TextView
                         android:id="@+id/textView41"
@@ -106,7 +112,8 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="Location"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"
+                        android:textColor="#D3D3D3"/>
 
                     <TextView
                         android:id="@+id/textView42"
@@ -117,6 +124,7 @@
                         android:text="City Center"
                         android:textColor="#000000"
                         android:textSize="12dp" />
+
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -125,7 +133,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="17dp"
                 android:layout_marginVertical="10dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@color/White">
 
                 <LinearLayout
                     android:layout_width="87dp"
@@ -139,7 +148,7 @@
                         android:layout_height="41dp"
                         android:layout_gravity="center"
                         android:foregroundGravity="center"
-                        tools:srcCompat="@drawable/clockicon" />
+                        android:src="@drawable/clockicon" />
 
                     <TextView
                         android:id="@+id/textView43"
@@ -147,6 +156,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="Service"
+                        android:textColor="@color/LightGrey"
                         android:textSize="12dp" />
 
                     <TextView
@@ -167,7 +177,8 @@
                 android:layout_marginVertical="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="0dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@color/White">
 
                 <LinearLayout
                     android:layout_width="87dp"
@@ -181,7 +192,7 @@
                         android:layout_height="41dp"
                         android:layout_gravity="center"
                         android:foregroundGravity="center"
-                        tools:srcCompat="@drawable/cashicon" />
+                        android:src ="@drawable/cashicon" />
 
                     <TextView
                         android:id="@+id/textView45"
@@ -189,6 +200,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="Price"
+                        android:textColor="@color/LightGrey"
                         android:textSize="12dp" />
 
                     <TextView
@@ -281,7 +293,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/requestnow_hometherapy"
                 android:layout_width="170dp"
                 android:layout_height="58dp"
                 android:layout_gravity="center|center_horizontal"

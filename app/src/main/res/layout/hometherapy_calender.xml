@@ -200,7 +200,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/confirm_order_btn"
                 android:layout_width="166dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|right"

@@ -33,46 +33,37 @@
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginStart="84dp"
-        android:layout_marginTop="348dp"
+        android:layout_marginTop="312dp"
         android:background="@null"
         android:fontFamily="@font/opensans_regular"
         android:hint="Username"
+        android:textColor="@color/Black"
         android:textColorHint="@color/LightGrey"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
-
-    <!--    <com.google.android.material.textfield.TextInputLayout-->
-<!--        android:layout_width="280dp"-->
-<!--        android:layout_height="45dp"-->
-<!--        android:layout_marginTop="524dp"-->
-<!--        android:layout_marginEnd="44dp"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:passwordToggleEnabled="true">-->
 
     <EditText
         android:id="@+id/signupemail"
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginStart="84dp"
-        android:layout_marginTop="416dp"
+        android:layout_marginTop="376dp"
         android:background="@null"
         android:fontFamily="@font/opensans_regular"
         android:hint="Email"
         android:textColorHint="@color/LightGrey"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <!--</com.google.android.material.textfield.TextInputLayout>-->
+        tools:ignore="TouchTargetSizeCheck"
+        android:textColor="@color/Black"/>
 
     <EditText
         android:id="@+id/signuppassword"
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginStart="84dp"
-        android:layout_marginTop="484dp"
+        android:layout_marginTop="440dp"
         android:background="@null"
         android:fontFamily="@font/opensans_regular"
         android:hint="Password"
@@ -80,13 +71,14 @@
         android:textColorHint="@color/LightGrey"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        android:textColor="@color/Black"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/createaccountbtn"
         android:layout_width="175dp"
         android:layout_height="57dp"
-        android:layout_marginTop="608dp"
+        android:layout_marginTop="552dp"
         android:layout_marginEnd="116dp"
         android:background="@drawable/custom_button_15radius"
         android:backgroundTint="@color/themecolor"

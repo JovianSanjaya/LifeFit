@@ -28,13 +28,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <EditText
         android:id="@+id/emailinput"
         android:layout_width="300dp"
         android:layout_height="45dp"
         android:layout_marginEnd="56dp"
-        android:layout_marginBottom="436dp"
+        android:layout_marginBottom="398dp"
         android:background="@null"
         android:fontFamily="@font/opensans_regular"
         android:hint="Email"
@@ -44,53 +43,54 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
 
+
     <EditText
         android:id="@+id/passwordinput"
         android:layout_width="300dp"
         android:layout_height="45dp"
         android:layout_marginEnd="56dp"
-        android:layout_marginBottom="368dp"
+        android:layout_marginBottom="334dp"
         android:background="@null"
         android:fontFamily="@font/opensans_regular"
         android:hint="Password"
+        android:textColor="@color/Black"
         android:textColorHint="@color/LightGrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="TouchTargetSizeCheck"
-        android:textColor="@color/Black"/>
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/donthaveaccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
-        android:layout_marginEnd="132dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="128dp"
+        android:fontFamily="@font/opensans_regular"
         android:text="Don't have an account?"
         android:textColor="@color/themecolor"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextSizeCheck"
-        android:fontFamily="@font/opensans_regular"/>
+        tools:ignore="TextSizeCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/nextbtn_login"
         android:layout_width="160dp"
         android:layout_height="57dp"
-        android:layout_marginTop="560dp"
+        android:layout_marginTop="512dp"
         android:layout_marginEnd="128dp"
         android:background="@drawable/custom_button_15radius"
         android:backgroundTint="@color/themecolor"
+        android:fontFamily="@font/opensans_regular"
         android:text="Next"
         android:textColor="@color/White"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:fontFamily="@font/opensans_regular"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="676dp"
+        android:layout_marginTop="624dp"
         android:layout_marginEnd="104dp"
         android:fontFamily="@font/opensans_regular"
         android:text="Call LifeFit Customer Center"
@@ -103,15 +103,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="644dp"
-        android:layout_marginEnd="148dp"
+        android:layout_marginTop="588dp"
+        android:layout_marginEnd="140dp"
+        android:fontFamily="@font/opensans_regular"
         android:text="Forgot Password?"
         android:textColor="@color/Black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextSizeCheck"
-        android:fontFamily="@font/opensans_regular"/>
+        tools:ignore="TextSizeCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
