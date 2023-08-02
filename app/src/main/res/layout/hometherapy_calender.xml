@@ -63,11 +63,13 @@
         android:id="@+id/location"
         android:layout_width="336dp"
         android:layout_height="46dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="45dp"
         android:text="4517 Washington Ave. Manchester,  Kentucky 39495 "
         android:textColor="#000000"
         android:textSize="17dp"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="635dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView6"
