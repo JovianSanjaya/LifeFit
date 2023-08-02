@@ -36,7 +36,7 @@
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="450dp"
         android:layout_marginEnd="220dp"
         android:fontFamily="@font/opensans_bold"
         android:text="Working Hours"
@@ -183,8 +183,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="343dp"
+        android:layout_height="302dp"
         android:layout_gravity="center"
         android:layout_marginStart="30dp"
         android:layout_marginTop="120dp"
