@@ -199,7 +199,7 @@
             android:id="@+id/calendarView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#9C9C9C"
+            android:background="#FFFFFF"
             android:backgroundTint="#9C9C9C"
             android:focusedMonthDateColor="#000000"
             android:weekSeparatorLineColor="#676666" />
