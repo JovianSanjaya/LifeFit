@@ -202,6 +202,7 @@
             android:background="#FFFFFF"
             android:backgroundTint="#9C9C9C"
             android:focusedMonthDateColor="#000000"
+            android:foregroundTint="#000000"
             android:weekSeparatorLineColor="#676666" />
 
     </androidx.cardview.widget.CardView>
