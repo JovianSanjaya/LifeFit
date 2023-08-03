@@ -203,11 +203,7 @@
             android:background="#FFFFFF"
 
 
-
-
-
-
-            android:visibility="invisible"
+            android:visibility="visible"
 
             />
 
