@@ -209,6 +209,7 @@
             android:weekNumberColor="@color/Black"
             android:weekSeparatorLineColor="@color/Black"
             android:textColorPrimary="@color/Black"
+            android:showWeekNumber="true"
             android:visibility="visible"
 
             />
