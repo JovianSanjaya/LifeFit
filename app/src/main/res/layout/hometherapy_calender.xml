@@ -205,8 +205,7 @@
 
 
 
-            android:weekDayTextAppearance="@color/Black"
-            android:weekNumberColor="@color/Black"
+
             android:weekSeparatorLineColor="@color/Black"
             android:textColorPrimary="@color/Black"
             android:visibility="invisible"
