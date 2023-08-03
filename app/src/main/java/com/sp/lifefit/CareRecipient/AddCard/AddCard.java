@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.sp.lifefit.CareRecipient.WalletFragment;
+import com.sp.lifefit.CareRecipient.BottomNavigation.WalletFragment;
 import com.sp.lifefit.R;
 
 import java.util.concurrent.Executor;

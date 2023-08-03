@@ -1,4 +1,4 @@
-package com.sp.lifefit.CareRecipient;
+package com.sp.lifefit.CareRecipient.BottomNavigation;
 
 import android.content.Context;
 import android.content.Intent;

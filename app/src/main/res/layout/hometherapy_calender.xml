@@ -91,7 +91,6 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:height="59dp"
-        android:background="@drawable/custom_button_15radius"
         android:backgroundTint="#5DBCC5"
         android:text="Confirm Order"
         android:textColorLink="#5DBCC5"
@@ -200,19 +199,11 @@
             android:id="@+id/calendarView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/themecolor"
+            android:background="#FFFFFF"
+            android:backgroundTint="#9C9C9C"
             android:focusedMonthDateColor="#000000"
-
-            android:selectedWeekBackgroundColor="@color/Black"
-            android:unfocusedMonthDateColor="#000000"
-            android:weekDayTextAppearance="@color/Black"
-            android:weekNumberColor="@color/Black"
-            android:weekSeparatorLineColor="@color/Black"
-            android:textColorPrimary="@color/Black"
-            android:showWeekNumber="false"
-            android:visibility="visible"
-
-            />
+            android:foregroundTint="#000000"
+            android:weekSeparatorLineColor="#676666" />
 
     </androidx.cardview.widget.CardView>
 

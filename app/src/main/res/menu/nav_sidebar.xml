@@ -6,28 +6,35 @@
 
     <group>
         <item
-            android:id="@+id/nav_list"
-            android:icon="@drawable/blue_person"
-            android:title="Profile" />
-        <item
-            android:title="History"
-            android:icon="@drawable/history_logo"/>
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
     </group>
 
     <group>
         <item
             android:title="Help Center"
-            android:icon="@drawable/help_center_logo"/>
+            android:icon="@drawable/help_center_logo"
+            android:id="@+id/nav_helpcentre"/>
         <item
             android:title="Edit Profile"
-            android:icon="@drawable/edit_profile_logo"/>
+            android:icon="@drawable/edit_profile_logo"
+            android:id="@+id/nav_editprofile"/>
         <item
             android:title="Tems of Service"
-            android:icon="@drawable/tos_logo"/>
+            android:icon="@drawable/outline_description_24"
+            android:id="@+id/nav_termsofservice"/>
+    </group>
+
+    <group>
+        <item android:title="About us"
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/baseline_info_24"/>
     </group>
 
     <group>
         <item android:title="Exit"
-            android:icon="@drawable/exit_logo"/>
+            android:icon="@drawable/exit_logo"
+            android:id="@+id/nav_exit"/>
     </group>
 </menu>
