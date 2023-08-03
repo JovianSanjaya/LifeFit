@@ -201,8 +201,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#FFFFFF"
-
-
+            android:focusedMonthDateColor="#000000"
+            android:foregroundTint="@color/Black"
+            android:selectedWeekBackgroundColor="@color/Black"
+            android:unfocusedMonthDateColor="@color/Black"
+            android:weekDayTextAppearance="@color/Black"
+            android:weekNumberColor="@color/Black"
+            android:weekSeparatorLineColor="@color/Black"
+            android:textColorPrimary="@color/Black"
             android:visibility="visible"
 
             />
