@@ -206,8 +206,7 @@
 
 
 
-            android:weekSeparatorLineColor="@color/Black"
-            android:textColorPrimary="@color/Black"
+
             android:visibility="invisible"
 
             />
