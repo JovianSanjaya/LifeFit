@@ -202,6 +202,8 @@
             android:background="#FFFFFF"
             android:focusedMonthDateColor="#000000"
             android:foregroundTint="@color/Black"
+            android:dateTextAppearance="#000000"
+            android:weekDayTextAppearance="#000000"
             />
 
     </androidx.cardview.widget.CardView>
