@@ -204,7 +204,7 @@
             android:focusedMonthDateColor="#000000"
 
 
-            android:unfocusedMonthDateColor="@color/Black"
+
             android:weekDayTextAppearance="@color/Black"
             android:weekNumberColor="@color/Black"
             android:weekSeparatorLineColor="@color/Black"
