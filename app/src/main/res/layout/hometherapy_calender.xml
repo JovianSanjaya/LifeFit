@@ -200,10 +200,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#FFFFFF"
-            android:backgroundTint="#9C9C9C"
             android:focusedMonthDateColor="#000000"
-            android:foregroundTint="#000000"
-            android:weekSeparatorLineColor="#676666" />
+            android:foreground="#000000"
+            />
 
     </androidx.cardview.widget.CardView>
 
