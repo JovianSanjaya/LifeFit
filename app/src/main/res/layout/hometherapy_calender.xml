@@ -201,7 +201,7 @@
             android:layout_height="match_parent"
             android:background="#FFFFFF"
             android:focusedMonthDateColor="#000000"
-            android:foreground="#000000"
+            android:foregroundTint="@color/Black"
             />
 
     </androidx.cardview.widget.CardView>
