@@ -109,7 +109,7 @@
         android:layout_gravity="center"
         android:layout_marginEnd="124dp"
         android:layout_marginBottom="60dp"
-        android:background="@drawable/rounded_corner"
+        android:background="@drawable/custom_button_15radius"
         android:backgroundTint="@color/themecolor"
         android:gravity="center"
         android:text="Request Now"
