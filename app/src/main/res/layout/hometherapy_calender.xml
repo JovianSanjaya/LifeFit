@@ -205,7 +205,7 @@
             android:foregroundTint="@color/Black"
             android:selectedWeekBackgroundColor="@color/Black"
             android:unfocusedMonthDateColor="@color/Black"
-            android:weekDayTextAppearance="#000000"
+            android:weekDayTextAppearance="@color/Black"
             android:weekNumberColor="@color/Black"
             android:weekSeparatorLineColor="@color/Black" />
 
