@@ -200,9 +200,9 @@
             android:id="@+id/calendarView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#00FFFF"
+            android:background="@color/themecolor"
             android:focusedMonthDateColor="#000000"
-            android:foregroundTint="@color/Black"
+
             android:selectedWeekBackgroundColor="@color/Black"
             android:unfocusedMonthDateColor="#000000"
             android:weekDayTextAppearance="@color/Black"
