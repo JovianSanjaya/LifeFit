@@ -300,6 +300,7 @@
                 android:layout_height="58dp"
                 android:layout_gravity="center|center_horizontal"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/custom_button_15radius"
                 android:backgroundTint="@color/themecolor"
                 android:gravity="center"
                 android:text="Request now"
