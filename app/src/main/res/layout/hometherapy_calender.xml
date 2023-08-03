@@ -207,7 +207,8 @@
             android:unfocusedMonthDateColor="@color/Black"
             android:weekDayTextAppearance="@color/Black"
             android:weekNumberColor="@color/Black"
-            android:weekSeparatorLineColor="@color/Black" />
+            android:weekSeparatorLineColor="@color/Black"
+            android:textColorPrimary="@color/Black"/>
 
     </androidx.cardview.widget.CardView>
 
