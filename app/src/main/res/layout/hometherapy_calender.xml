@@ -203,14 +203,7 @@
             android:background="@color/themecolor"
             android:focusedMonthDateColor="#000000"
 
-            android:selectedWeekBackgroundColor="@color/Black"
-            android:unfocusedMonthDateColor="#000000"
-            android:weekDayTextAppearance="@color/Black"
-            android:weekNumberColor="@color/Black"
-            android:weekSeparatorLineColor="@color/Black"
-            android:textColorPrimary="@color/Black"
-            android:showWeekNumber="false"
-            android:visibility="visible"
+
 
             />
 
