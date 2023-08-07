@@ -204,7 +204,6 @@
             android:focusedMonthDateColor="#000000"
 
 
-
             />
 
     </androidx.cardview.widget.CardView>
