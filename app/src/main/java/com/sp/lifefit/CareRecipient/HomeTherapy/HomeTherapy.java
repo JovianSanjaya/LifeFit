@@ -31,14 +31,7 @@ public class HomeTherapy extends AppCompatActivity {
             }
         });
 
-        backbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(HomeTherapy.this, .class);
-                startActivity(intent);
-                finish();
-            }
-        });
+
 
     }
 }
