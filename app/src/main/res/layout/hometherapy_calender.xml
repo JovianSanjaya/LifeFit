@@ -200,7 +200,6 @@
             android:id="@+id/calendarView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/themecolor"
             android:focusedMonthDateColor="#000000"
 
 
