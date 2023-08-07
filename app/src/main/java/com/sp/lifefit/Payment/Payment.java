@@ -10,14 +10,16 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
+import com.sp.lifefit.CareRecipient.HomeTherapy.HomeTherapyCalendar;
 import com.sp.lifefit.R;
 
 public class Payment extends AppCompatActivity {
     private AppCompatButton cardbtn;
     private AppCompatButton cashbtn;
     private AppCompatButton nextbtn;
-
+    private ImageView backbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,7 @@ public class Payment extends AppCompatActivity {
         cardbtn = findViewById(R.id.cardbtn);
         cashbtn = findViewById(R.id.cashbtn);
         nextbtn = findViewById(R.id.nextbtn_payment);
+        backbtn = findViewById(R.id.backbtnImage);
 
         cardbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +59,16 @@ public class Payment extends AppCompatActivity {
                 finish();
             }
         });
+
+        backbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Payment.this, HomeTherapyCalendar.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
 
     }
 }
