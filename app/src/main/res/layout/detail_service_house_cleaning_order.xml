@@ -127,54 +127,56 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
 
             <ImageView
-                android:layout_width="187dp"
+                android:id="@+id/imageView24"
+                android:layout_width="82dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                tools:srcCompat="@drawable/person" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/poppins_medium"
-                    android:gravity="bottom"
-                    android:text="3 Cleaners"
-                    android:textColor="#262A27" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="+$14 / cleaner"
-                    android:textColor="#BFBFBF"
-                    android:textSize="14dp"
-                    tools:ignore="TextSizeCheck" />
-            </LinearLayout>
+                tools:srcCompat="@drawable/person"
+                android:src="@drawable/person"/>
 
             <TextView
-                android:layout_width="180dp"
+
+                android:id="@+id/textView34"
+                android:layout_width="178dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="bottom"
+                android:text="3 Cleaners"
+                android:textColor="#262A27"
+                app:layout_constraintStart_toEndOf="@+id/imageView24"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="213dp"
+                android:layout_height="19dp"
+                android:layout_weight="1"
+                android:text="+$14 / cleaner"
+                android:textColor="#BFBFBF"
+                android:textSize="14dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView24"
+                app:layout_constraintTop_toBottomOf="@+id/textView34"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="103dp"
                 android:layout_height="match_parent"
+                android:layout_marginStart="240dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/poppins_medium"
                 android:gravity="center"
                 android:text="$14/person"
                 android:textColor="#5C598D"
-                android:textStyle="bold" />
-
-        </LinearLayout>
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/imageView24"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
