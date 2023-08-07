@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:srcCompat="@drawable/house" />
+                android:src="@drawable/house" />
 
             <TextView
                 android:id="@+id/textView33"
@@ -136,7 +136,6 @@
                 android:layout_width="82dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                tools:srcCompat="@drawable/person"
                 android:src="@drawable/person"/>
 
             <TextView
@@ -255,13 +254,14 @@
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
                 android:layout_height="33dp"
-                tools:srcCompat="@drawable/markericon" />
+                android:src="@drawable/markericon" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Location"
+                android:textColor="#9E9CA3"
                 android:textAlignment="center" />
 
             <TextView
@@ -295,12 +295,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="34dp"
                 android:layout_gravity="center"
-                tools:srcCompat="@drawable/clockicon" />
+                android:src="@drawable/clockicon" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#9E9CA3"
                 android:text="Service"
                 android:textAlignment="center" />
 
@@ -334,12 +335,13 @@
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="33dp"
-                tools:srcCompat="@drawable/cashicon" />
+                android:src="@drawable/cashicon" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#9E9CA3"
                 android:text="Price"
                 android:textAlignment="center" />
 
