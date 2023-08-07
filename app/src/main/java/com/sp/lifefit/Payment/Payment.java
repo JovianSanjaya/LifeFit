@@ -1,10 +1,13 @@
 package com.sp.lifefit.Payment;
 
+import androidx.annotation.ColorInt;
+import androidx.annotation.DrawableRes;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 
@@ -30,6 +33,7 @@ public class Payment extends AppCompatActivity {
             public void onClick(View v) {
                 Fragment fragment = null;
                 fragment = new CardPaymentFragment();
+                cardbtn.setBackgroundColor(Color.parseColor("#5DBCC5"));
             }
         });
 
