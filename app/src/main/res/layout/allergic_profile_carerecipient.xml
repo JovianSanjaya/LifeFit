@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/health_allergic_profile">
+
+    <ImageButton
+        android:id="@+id/gobackbtn_healthallergicprofile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="332dp"
+        android:background="@color/White"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gobackbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Care recipient's health profile"
+        android:textColor="@color/Black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="This data will be displayed in your account profile for security"
+        android:textColor="@color/Black"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TableLayout
+            android:layout_width="342dp"
+            android:layout_height="420dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="210dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="Does the care recipient have any medical symptoms?"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textSize="15dp"
+                        android:textColor="@color/Black"/>
+
+                    <RadioButton
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textSize="15dp"
+                        android:textColor="@color/Black"
+                        />
+
+                </RadioGroup>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="If yes, please specify"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="Is the care recipient currently on any medication?"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textSize="15dp"
+                        android:textColor="@color/Black"/>
+
+                    <RadioButton
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textSize="15dp"
+                        android:textColor="@color/Black"
+                        />
+
+                </RadioGroup>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="If yes, please specify"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="Does the care recipient have any medical allergies?"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textSize="15dp"
+                        android:textColor="@color/Black"/>
+
+                    <RadioButton
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textSize="15dp"
+                        android:textColor="@color/Black"
+                        />
+
+                </RadioGroup>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="If yes, please specify"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="@color/Black"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextbtn_healthprofile_carerecipient"
+        android:layout_width="143dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/themecolor"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Next"
+        android:textSize="16dp"
+        android:textColor="@color/White"
+        android:background="@drawable/custom_button_15radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

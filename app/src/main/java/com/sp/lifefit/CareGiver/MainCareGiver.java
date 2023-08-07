@@ -7,10 +7,6 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.sp.lifefit.CareRecipient.ChatFragment;
-import com.sp.lifefit.CareRecipient.EventFragment;
-import com.sp.lifefit.CareRecipient.HomeFragment;
-import com.sp.lifefit.CareRecipient.WalletFragment;
 import com.sp.lifefit.R;
 
 public class MainCareGiver extends AppCompatActivity {

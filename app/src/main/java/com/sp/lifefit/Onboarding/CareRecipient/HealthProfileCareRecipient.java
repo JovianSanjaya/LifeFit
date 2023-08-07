@@ -17,7 +17,7 @@ public class HealthProfileCareRecipient extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.health_allergic_profile);
+        setContentView(R.layout.allergic_profile_carerecipient);
 
         nextbtn = findViewById(R.id.nextbtn_healthprofile_carerecipient);
         nextbtn.setOnClickListener(new View.OnClickListener() {

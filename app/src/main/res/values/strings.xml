@@ -2,4 +2,12 @@
     <string name="app_name">LifeFit</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bullet_points">
+        • Modify, decompile, reverse engineer, or attempt to extract the source code of the App.
+        • Use the App in any manner that violates applicable laws or regulations.
+        • Use the App to infringe upon the intellectual property rights of others.
+        • Engage in any activity that could harm, disrupt, or impair the functioning of the App or its users.</string>
+
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
 </resources>
