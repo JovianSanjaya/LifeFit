@@ -42,7 +42,7 @@ public class Payment extends AppCompatActivity {
             public void onClick(View v) {
                 Fragment fragment = null;
                 fragment = new CashPaymentFragment();
-                cardbtn.setBackgroundColor(Color.parseColor("#5DBCC5"));
+                cashbtn.setBackgroundColor(Color.parseColor("#5DBCC5"));
             }
         });
 
