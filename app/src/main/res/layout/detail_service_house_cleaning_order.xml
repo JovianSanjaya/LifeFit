@@ -54,7 +54,7 @@
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
-        android:layout_marginTop="305dp"
+        android:layout_marginTop="295dp"
         android:layout_marginEnd="33dp"
         android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="15dp"
@@ -118,8 +118,9 @@
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
-        android:layout_marginTop="390dp"
+        android:layout_marginTop="380dp"
         android:layout_marginEnd="33dp"
+        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -179,7 +180,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="486dp"
+        android:layout_marginTop="476dp"
         android:layout_marginEnd="228dp"
         android:fontFamily="@font/poppins_medium"
         android:text="Responsibilities:"
@@ -192,7 +193,7 @@
         android:id="@+id/textView20"
         android:layout_width="272dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="510dp"
         android:layout_marginEnd="80dp"
         android:fontFamily="@font/poppins_medium"
         android:lineSpacingExtra="4dp"
@@ -222,7 +223,7 @@
         android:id="@+id/ordernowbtn_housekeeping"
         android:layout_width="170dp"
         android:layout_height="48dp"
-        android:layout_marginTop="718dp"
+        android:layout_marginTop="692dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/custom_button_15radius"
         android:backgroundTint="@color/themecolor"
@@ -234,8 +235,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="99dp"
         android:layout_height="80dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="200dp"
         android:layout_marginRight="285dp"
+        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -272,8 +274,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="99dp"
         android:layout_height="80dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="200dp"
         android:layout_marginRight="160dp"
+        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -311,8 +314,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="99dp"
         android:layout_height="80dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="200dp"
         android:layout_marginRight="35dp"
+        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -349,7 +353,7 @@
     <ImageView
         android:layout_width="7dp"
         android:layout_height="7dp"
-        android:layout_marginTop="622dp"
+        android:layout_marginTop="612dp"
         android:layout_marginEnd="10dp"
 
         android:src="@drawable/oval"
@@ -359,7 +363,7 @@
     <ImageView
         android:layout_width="7dp"
         android:layout_height="7dp"
-        android:layout_marginTop="525dp"
+        android:layout_marginTop="515dp"
         android:layout_marginEnd="10dp"
 
         android:src="@drawable/oval"
