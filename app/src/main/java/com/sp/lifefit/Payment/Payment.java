@@ -34,6 +34,7 @@ public class Payment extends AppCompatActivity {
                 Fragment fragment = null;
                 fragment = new CardPaymentFragment();
                 cardbtn.setBackgroundColor(Color.parseColor("#5DBCC5"));
+                cashbtn.setBackgroundColor(Color.LTGRAY);
             }
         });
 
@@ -43,6 +44,7 @@ public class Payment extends AppCompatActivity {
                 Fragment fragment = null;
                 fragment = new CashPaymentFragment();
                 cashbtn.setBackgroundColor(Color.parseColor("#5DBCC5"));
+                cardbtn.setBackgroundColor(Color.LTGRAY);
             }
         });
 
