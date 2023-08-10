@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ListView;
 
+import com.sp.lifefit.Payment.Payment;
 import com.sp.lifefit.R;
 
 import java.util.List;
@@ -17,6 +18,7 @@ public class CartActivity extends AppCompatActivity {
     private List<MealDetails> mCartList;
     private MealCartAdapter mealCartAdapter;
     private ImageButton backbtn;
+    private ImageButton placeOrderbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,7 @@ public class CartActivity extends AppCompatActivity {
 
         mCartList = MealHelper.getCart();
         backbtn = findViewById(R.id.go_back_button_confirm_meal_order);
+        placeOrderbtn = findViewById(R.id.place_order_button_confirm_meal_order);
 
         // Create the list
         final ListView listViewCatalog = (ListView) findViewById(R.id.meal_arrangement_orders);
@@ -36,6 +39,16 @@ public class CartActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(CartActivity.this,MealMenuList.class);
+                startActivity(intent);
+
+            }
+        });
+
+        placeOrderbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(CartActivity.this, Payment.class);
                 startActivity(intent);
 
             }
