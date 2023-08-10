@@ -2,7 +2,10 @@ package com.sp.lifefit.CareRecipient.HomePersonal.MealArrangement;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import com.sp.lifefit.R;
@@ -13,6 +16,7 @@ public class CartActivity extends AppCompatActivity {
 
     private List<MealDetails> mCartList;
     private MealCartAdapter mealCartAdapter;
+    private ImageButton backbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,11 +24,22 @@ public class CartActivity extends AppCompatActivity {
         setContentView(R.layout.confirm_meal_arrangement_order);
 
         mCartList = MealHelper.getCart();
+        backbtn = findViewById(R.id.go_back_button_confirm_meal_order);
 
         // Create the list
         final ListView listViewCatalog = (ListView) findViewById(R.id.meal_arrangement_orders);
         mealCartAdapter = new MealCartAdapter(mCartList, getLayoutInflater());
         listViewCatalog.setAdapter(mealCartAdapter);
+
+        backbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(CartActivity.this,MealMenuList.class);
+                startActivity(intent);
+
+            }
+        });
 
 
 //        Button removeButton = (Button) findViewById(R.id.ButtonRemoveFromCart);
