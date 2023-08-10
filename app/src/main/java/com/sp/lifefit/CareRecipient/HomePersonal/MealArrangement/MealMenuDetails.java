@@ -3,22 +3,27 @@ package com.sp.lifefit.CareRecipient.HomePersonal.MealArrangement;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.sp.lifefit.CareRecipient.HomePersonal.HomePersonalCare;
 import com.sp.lifefit.R;
 
 import java.util.List;
 
 public class MealMenuDetails extends AppCompatActivity {
-
+    private ImageButton backbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.meal_details);
+
+        backbtn = findViewById(R.id.go_back_button_meal_details);
 
 
         List<MealDetails> catalog = MealHelper.getCatalog(getResources());
@@ -48,6 +53,14 @@ public class MealMenuDetails extends AppCompatActivity {
             }
         });
 
+        backbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MealMenuDetails.this, MealMenuList.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
 }
