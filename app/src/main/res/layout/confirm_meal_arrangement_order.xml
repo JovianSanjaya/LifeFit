@@ -35,27 +35,6 @@
         android:layout_marginStart="14dp"
         android:layout_marginTop="155dp"
         android:scrollbars="none"/>
-    <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="480dp"
-        app:srcCompat="@drawable/confirm_order_location_icon"/>
-
-    <TextView
-        android:id="@+id/address_onmealorder"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="480dp"
-        android:fontFamily="@font/opensans_regular"
-        android:text="Block 17A Telok Blangah Crescent, Singapore"
-        android:textColor="#8E8080"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="90dp"
