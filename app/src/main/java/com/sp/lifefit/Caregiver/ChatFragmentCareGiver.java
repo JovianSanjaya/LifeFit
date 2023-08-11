@@ -28,7 +28,7 @@ public class ChatFragmentCareGiver extends Fragment {
 
         getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        anamwpcaregiver = rootView.findViewById(R.id.anamwp_caregiver);
+        anamwpcaregiver = rootView.findViewById(R.id.care_recipient_requests);
         anamwpcaregiver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

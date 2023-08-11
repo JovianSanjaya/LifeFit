@@ -23,7 +23,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/anamwp_caregiver"
+            android:id="@+id/care_recipient_requests"
             android:layout_width="335dp"
             android:layout_height="81dp"
             android:layout_marginStart="36dp"
