@@ -98,13 +98,6 @@ public class EventFragment extends Fragment {
             }
         });
 
-        teleConsult.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), TeleConsultationsOnActivity.class);
-                startActivity(intent);
-            }
-        });
 
         return rootView;
 
