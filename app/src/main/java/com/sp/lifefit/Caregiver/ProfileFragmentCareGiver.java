@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
@@ -14,6 +15,7 @@ import com.sp.lifefit.R;
 public class ProfileFragmentCareGiver extends Fragment {
 
     private Context mContext;
+    private Button editProfile;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -21,6 +23,7 @@ public class ProfileFragmentCareGiver extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_my_profile_caregiver, container, false);
 
         mContext = getActivity();
+
 
         getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
