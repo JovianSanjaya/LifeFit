@@ -12,7 +12,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="72dp"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Meal Arrangement List"
+        android:text="Medicine Delivery"
         android:textColor="@color/White"
         android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"

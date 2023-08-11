@@ -24,7 +24,7 @@ public class MealArrangementListOnActivity extends AppCompatActivity {
 
         mCartList = MealHelper.getCart();
         // Create the list
-        final ListView listViewCatalog = (ListView) findViewById(R.id.meal_arrangement_list);
+        final ListView listViewCatalog = (ListView) findViewById(R.id.medicine_delivery_list);
         mealCartAdapter = new MealCartAdapter(mCartList, getLayoutInflater());
         listViewCatalog.setAdapter(mealCartAdapter);
     }
