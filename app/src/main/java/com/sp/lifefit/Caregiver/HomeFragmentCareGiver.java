@@ -18,8 +18,7 @@ import com.sp.lifefit.R;
 public class HomeFragmentCareGiver extends Fragment {
 
     private Context mContext;
-    private CardView meal;
-    private CardView homedoctor;
+    private CardView jovianCarerecipient;
 
 
 
@@ -30,10 +29,17 @@ public class HomeFragmentCareGiver extends Fragment {
 
         mContext = getActivity();
 
+
         getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 
-        
+        jovianCarerecipient.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), JovianRequestsList.class);
+                startActivity(intent);
+            }
+        });
 
 
 
