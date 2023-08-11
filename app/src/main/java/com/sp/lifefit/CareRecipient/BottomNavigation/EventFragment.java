@@ -56,7 +56,6 @@ public class EventFragment extends Fragment {
         medicine = rootView.findViewById(R.id.medicine_delivery_list_onactivity);
         houseKeeping = rootView.findViewById(R.id.housekeeping_list_onactivity);
         homeTherapy = rootView.findViewById(R.id.home_therapy_list_onactivity);
-        teleConsult = rootView.findViewById(R.id.tele_consultation_list_onactivity);
 
         meal.setOnClickListener(new View.OnClickListener() {
             @Override
