@@ -53,7 +53,7 @@
                 android:layout_marginBottom="18dp">
 
                 <ImageView
-                    android:id="@+id/imageView5"
+                    android:id="@+id/phoneno"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/call_logo" />
@@ -75,7 +75,7 @@
                 android:layout_marginBottom="18dp">
 
                 <ImageView
-                    android:id="@+id/imageView6"
+                    android:id="@+id/instagram_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/insta_logo" />
@@ -97,7 +97,7 @@
                 android:layout_marginBottom="18dp">
 
                 <ImageView
-                    android:id="@+id/imageView7"
+                    android:id="@+id/searchicon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/magnifying_glass" />

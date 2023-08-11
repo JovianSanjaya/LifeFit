@@ -35,25 +35,74 @@ public class SignUpCareRecipient extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-
-                database = FirebaseDatabase.getInstance("https://lifefit-c080f-default-rtdb.asia-southeast1.firebasedatabase.app");
-                reference = database.getReference("Carerecipients");
-
-                String username = signupusername.getText().toString();
-                String email = signupemail.getText().toString();
-                String password = signuppassword.getText().toString();
-
-                HelperClassCareRecipient helperClassCareRecipient = new HelperClassCareRecipient(username,email,password);
-                reference.child(password).setValue(helperClassCareRecipient);
+                if(!ValidateUsername() || !ValidateEmail() || !ValidatePassword()){
 
 
-                Toast.makeText(SignUpCareRecipient.this, "You have signed up succesfully!", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    database = FirebaseDatabase.getInstance("https://lifefit-c080f-default-rtdb.asia-southeast1.firebasedatabase.app");
+                    reference = database.getReference("Carerecipients");
 
-                Intent intent = new Intent(SignUpCareRecipient.this, UploadPhotoCareRecipient.class);
-                startActivity(intent);
+                    String username = signupusername.getText().toString();
+                    String email = signupemail.getText().toString();
+                    String password = signuppassword.getText().toString();
+
+                    HelperClassCareRecipient helperClassCareRecipient = new HelperClassCareRecipient(username,email,password);
+                    reference.child(password).setValue(helperClassCareRecipient);
+
+
+                    Toast.makeText(SignUpCareRecipient.this, "You have signed up succesfully!", Toast.LENGTH_SHORT).show();
+
+                    Intent intent = new Intent(SignUpCareRecipient.this, UploadPhotoCareRecipient.class);
+                    startActivity(intent);
+                }
+
             }
         });
 
 
     }
+
+    public Boolean ValidateUsername(){
+
+        String val = signupusername.getText().toString();
+        if(val.isEmpty()){
+            signupusername.setError("Username cannot be empty");
+            return false;
+        }
+        else {
+            signupusername.setError(null);
+            return true;
+        }
+
+    }
+
+    public Boolean ValidateEmail(){
+
+        String val = signupemail.getText().toString();
+        if(val.isEmpty()){
+            signupemail.setError("Email cannot be empty");
+            return false;
+        }
+        else {
+            signupemail.setError(null);
+            return true;
+        }
+
+    }
+
+    public Boolean ValidatePassword(){
+
+        String val = signuppassword.getText().toString();
+        if(val.isEmpty()){
+            signuppassword.setError("Password cannot be empty");
+            return  false;
+        }
+        else {
+            signuppassword.setError(null);
+            return true;
+        }
+
+    }
+
 }

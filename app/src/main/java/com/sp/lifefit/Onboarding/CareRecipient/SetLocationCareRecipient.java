@@ -24,6 +24,7 @@ import android.widget.Toast;
 import com.sp.lifefit.R;;
 import java.util.List;
 import java.util.Locale;
+import java.util.Set;
 
 public class SetLocationCareRecipient extends AppCompatActivity implements LocationListener {
     private AppCompatButton setlocationbtn;
@@ -69,10 +70,9 @@ public class SetLocationCareRecipient extends AppCompatActivity implements Locat
         marker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(SetLocationCareRecipient.this,Map.class);
+                startActivity(intent);
                 
-
-
 
 
             }

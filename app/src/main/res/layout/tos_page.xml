@@ -158,7 +158,7 @@
                     android:layout_marginTop="5dp"
                     android:width="250dp"
                     android:fontFamily="@font/lato_regular"
-                    android:text="•"
+                    android:text="Modify, decompile, reverse engineer, or attempt to extract the source code of the App. Use the App to infringe upon the intellectual property rights of others."
                     android:textColor="#9BCBC3"
                     android:textSize="12sp" />
 

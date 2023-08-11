@@ -54,6 +54,8 @@
                 android:layout_weight="1"
                 android:src="@drawable/anamwp" />
 
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -65,10 +67,10 @@
                     android:id="@+id/caregiver_own_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginVertical="5dp"
                     android:fontFamily="@font/opensans_bold"
                     android:text="Caregiver Jinhoe"
                     android:textColor="#000000"
+                    android:layout_marginTop="20dp"
                     android:textSize="20dp" />
 
                 <TextView
@@ -76,25 +78,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Caregiver@gmail.com"
-                    android:textColor="@color/Black"/>
+                    android:textColor="@color/Black"
+                    android:layout_marginTop="10dp"/>
 
                 <TextView
                     android:id="@+id/caregiver_number"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
                     android:text="+65 7355608"
                     android:textColor="@color/Black"/>
-
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/edit_profile_button"
-                    android:layout_width="130dp"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="@color/themecolor"
-                    android:text="Edit Profile"
-                    android:textSize="12dp"
-                    android:textColor="@color/White"
-                    android:background="@drawable/custom_button_15radius"/>
 
             </LinearLayout>
         </LinearLayout>
