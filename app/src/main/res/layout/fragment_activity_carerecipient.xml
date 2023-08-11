@@ -32,7 +32,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/medicinelist"
+                    android:id="@+id/housekeepinglist"
                     android:layout_width="321dp"
                     android:layout_height="96dp"
                     android:layout_marginStart="40dp"
@@ -74,6 +74,102 @@
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="17dp"
                             app:srcCompat="@drawable/housekeeping_icon" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/teleconsultationslist"
+                    android:layout_width="321dp"
+                    android:layout_height="96dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="690dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="22dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginStart="80dp"
+                                android:layout_marginTop="29dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="Tele Consultation"
+                                android:textColor="@color/themecolor"
+                                android:textSize="23sp" />
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="58dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="17dp"
+                            app:srcCompat="@drawable/tele_consultation_icon" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/hometherapylist"
+                    android:layout_width="321dp"
+                    android:layout_height="96dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="590dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="22dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginStart="80dp"
+                                android:layout_marginTop="29dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="Home Therapy"
+                                android:textColor="@color/themecolor"
+                                android:textSize="23sp" />
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="58dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="17dp"
+                            app:srcCompat="@drawable/home_therapy_icon" />
 
                     </RelativeLayout>
 
