@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.sp.lifefit.CareRecipient.BottomNavigation.WalletFragment;
+import com.sp.lifefit.CareRecipient.MainCareRecipient;
 import com.sp.lifefit.R;
 
 import java.util.concurrent.Executor;
@@ -38,12 +39,6 @@ public class AddCard extends AppCompatActivity {
         expdate = findViewById(R.id.expdate);
         confirmbtn = findViewById(R.id.confirmbtn_addcard);
         mMainlayout = findViewById(R.id.constraintlayout_addcard);
-
-
-//        String namestr = name.getText().toString();
-//        String creditcardnostr = credicardno.getText().toString();
-//        String expdatestr = expdate.getText().toString();
-
 
         BiometricManager biometricManager = BiometricManager.from(this);
         if(biometricManager.canAuthenticate() == BiometricManager.BIOMETRIC_ERROR_NO_HARDWARE){
@@ -89,10 +84,7 @@ public class AddCard extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                Intent intent = new Intent( AddCard.this, WalletFragment.class);
-//                intent.putExtra("name", namestr);
-//                intent.putExtra("creditcardno", creditcardnostr);
-//                intent.putExtra("expdate", expdatestr);
+                Intent intent = new Intent( AddCard.this, MainCareRecipient.class);
                 startActivity(intent);
 
             }

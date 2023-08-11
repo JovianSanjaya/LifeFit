@@ -17,11 +17,10 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.sp.lifefit.R;;
 import java.util.List;
 import java.util.Locale;
@@ -31,6 +30,7 @@ public class SetLocationCareRecipient extends AppCompatActivity implements Locat
     private AppCompatButton nextbtn;
     private TextView locationdisplayed;
     LocationManager locationManager;
+    private ImageView marker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +41,8 @@ public class SetLocationCareRecipient extends AppCompatActivity implements Locat
         setlocationbtn = findViewById(R.id.setlocation_onboarding_btn);
         nextbtn = findViewById(R.id.nextbtn_setlocation);
         locationdisplayed = findViewById(R.id.location_displayed);
+        marker = findViewById(R.id.marker_location);
+
 
         nextbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,6 +63,18 @@ public class SetLocationCareRecipient extends AppCompatActivity implements Locat
             @Override
             public void onClick(View v) {
                 getlocation();
+            }
+        });
+
+        marker.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                
+
+
+
+
             }
         });
     }
@@ -87,9 +101,11 @@ public class SetLocationCareRecipient extends AppCompatActivity implements Locat
             String address = addresses.get(0).getAddressLine(0);
             locationdisplayed.setText(address);
 
+
         }catch (Exception e){
             e.printStackTrace();
         }
+
     }
 
     @Override

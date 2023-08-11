@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.sp.lifefit.Onboarding.CareRecipient.LoginCareRecipient;
-import com.sp.lifefit.Onboarding.Caregiver.LoginCareGiver;
+import com.sp.lifefit.Onboarding.CareGiver.LoginCareGiver;
 import com.sp.lifefit.R;
 
 public class CaregiverVSCarerecipient extends AppCompatActivity {

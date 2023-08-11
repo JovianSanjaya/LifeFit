@@ -28,9 +28,5 @@ public class MedicinePharmacy extends AppCompatActivity {
             }
         });
 
-
-
-
-
     }
 }

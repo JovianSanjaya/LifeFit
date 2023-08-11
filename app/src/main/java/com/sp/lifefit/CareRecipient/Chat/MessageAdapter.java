@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.sp.lifefit.CareGiver.Chat.MessageCareGiver;
+import com.sp.lifefit.Caregiver.Chat.MessageCareGiver;
 import com.sp.lifefit.R;
 
 import java.util.List;

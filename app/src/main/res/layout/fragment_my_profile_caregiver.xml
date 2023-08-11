@@ -20,15 +20,17 @@
 
             <TextView
                 android:id="@+id/textView70"
-                android:layout_width="122dp"
-                android:layout_height="116dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginEnd="30dp"
                 android:layout_weight="1"
-                android:fontFamily="@font/opensans_bold"
-                android:gravity="right|center_vertical"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
                 android:text="My Profile"
-                android:textColor="#000000"
-                android:textSize="15dp" />
+                android:textColor="@color/themecolor"
+                android:textSize="35dp"
+                android:layout_marginStart="10dp"/>
 
             <ImageView
                 android:id="@+id/imageView19"
@@ -36,8 +38,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
                 android:layout_weight="1"
-                android:foregroundGravity="center"
-                android:src="@drawable/logo" />
+                android:foregroundGravity="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -66,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="5dp"
                     android:fontFamily="@font/opensans_bold"
-                    android:text="Caregiver John"
+                    android:text="Caregiver Jinhoe"
                     android:textColor="#000000"
                     android:textSize="20dp" />
 
@@ -74,23 +75,26 @@
                     android:id="@+id/caregiver_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Caregiver@gmail.com" />
+                    android:text="Caregiver@gmail.com"
+                    android:textColor="@color/Black"/>
 
                 <TextView
                     android:id="@+id/caregiver_number"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="+65 7355608" />
+                    android:text="+65 7355608"
+                    android:textColor="@color/Black"/>
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/edit_profile_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
                     android:layout_marginTop="10dp"
                     android:backgroundTint="@color/themecolor"
                     android:text="Edit Profile"
                     android:textSize="12dp"
-                    app:cornerRadius="5dp" />
+                    android:textColor="@color/White"
+                    android:background="@drawable/custom_button_15radius"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -103,7 +107,7 @@
             android:fontFamily="@font/opensans_bold"
             android:text="My Details"
             android:textColor="#000000"
-            android:textSize="15dp" />
+            android:textSize="20dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -115,7 +119,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@color/White">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -159,7 +164,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@color/White">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -203,7 +209,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@color/White">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -247,7 +254,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@color/White">
 
                 <LinearLayout
                     android:layout_width="match_parent"

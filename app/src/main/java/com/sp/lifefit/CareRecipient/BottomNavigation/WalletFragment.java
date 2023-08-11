@@ -18,7 +18,7 @@ import com.sp.lifefit.R;
 public class WalletFragment extends Fragment {
 
     private AppCompatButton addcardbtn;
-    private TextView name_displayed,creditcardno_displayed,expdate_displayed;
+
 
     private Context mContext;
     @Override
@@ -32,20 +32,6 @@ public class WalletFragment extends Fragment {
         getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         addcardbtn = rootView.findViewById(R.id.addcardbtn);
-
-
-
-//        name_displayed = rootView.findViewById(R.id.name_on_card);
-//        creditcardno_displayed = rootView.findViewById(R.id.card_number);
-//        expdate_displayed = rootView.findViewById(R.id.card_expiry_date);
-//
-//        String name = getActivity().getIntent().getStringExtra("name");
-//        String creditcardno = getActivity().getIntent().getStringExtra("creditcardno");
-//        String expdate = getActivity().getIntent().getStringExtra("expdate");
-//
-//        name_displayed.setText(name);
-//        creditcardno_displayed.setText(creditcardno);
-//        expdate_displayed.setText(expdate);
 
         addcardbtn.setOnClickListener(new View.OnClickListener() {
             @Override

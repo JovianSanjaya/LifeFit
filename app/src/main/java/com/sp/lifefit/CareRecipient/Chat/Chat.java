@@ -10,8 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.sp.lifefit.CareGiver.Chat.MessageAdapterCareGiver;
-import com.sp.lifefit.CareGiver.Chat.MessageCareGiver;
+import com.sp.lifefit.Caregiver.Chat.MessageCareGiver;
 import com.sp.lifefit.R;
 
 import org.json.JSONArray;

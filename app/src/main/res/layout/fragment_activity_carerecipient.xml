@@ -1,31 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/backgroundsmallcirclesatcorner">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="My Activity"
-        android:fontFamily="@font/poppins_semibold"
-        android:textSize="36dp"
-        android:textColor="@color/themecolor"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="48dp"
-        android:layout_marginStart="40dp"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="347dp"
-        android:layout_height="match_parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="198dp"
-        android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Activity"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="36dp"
+                android:textColor="@color/themecolor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="48dp"
+                android:layout_marginStart="40dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/meal_arrangement_onactivity"
+            android:layout_width="321dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="150dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="22dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="58dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="17dp"
+                        app:srcCompat="@drawable/meal_arrangement_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="79dp"
+                        android:layout_marginTop="29dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Meal Arrangement"
+                        android:textColor="@color/themecolor"
+                        android:textSize="23sp" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="58dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="17dp"
+                    app:srcCompat="@drawable/meal_arrangement_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="79dp"
+                    android:layout_marginTop="29dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Meal Arrangement"
+                    android:textColor="@color/themecolor"
+                    android:textSize="23sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/home_doctor_list_onactivity"
+            android:layout_width="321dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="260dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="22dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="29dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Home Doctor"
+                        android:textColor="@color/themecolor"
+                        android:textSize="23sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/mealarrangeimageView"
+                    android:layout_width="48dp"
+                    android:layout_height="58dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="17dp"
+                    app:srcCompat="@drawable/home_doctor_icon" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/medicinelist"
+            android:layout_width="321dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="370dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="22dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="29dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Medicine Delivery"
+                        android:textColor="@color/themecolor"
+                        android:textSize="23sp" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="58dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="17dp"
+                    app:srcCompat="@drawable/medicine_delivery_icon" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

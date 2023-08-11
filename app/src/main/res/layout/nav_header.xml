@@ -13,24 +13,27 @@
 
     <ImageView
         android:id="@+id/imageView25"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/logo" />
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="-20dp"
+        app:srcCompat="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="-30dp"/>
 
     <TextView
         android:id="@+id/textView73"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="User_name"
+        android:text="Jovian"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView86"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="User_Email"
+        android:text="joviansanjayaputra@gmail.com"
         android:textColor="#FFFFFF"
-        android:textSize="12sp" />
+        android:textSize="15sp" />
 </LinearLayout>

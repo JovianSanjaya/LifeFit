@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/twosmallcirclesbg_new">
+    android:background="@drawable/backgroundsmallcirclesatcornerwhite">
 
     <ImageButton
-        android:id="@+id/backbtn"
+        android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -21,7 +21,7 @@
         android:layout_width="124dp"
         android:layout_height="110dp"
         android:layout_gravity="center"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="135dp"
         android:fontFamily="@font/poppins_semibold"
         android:gravity="center|center_horizontal"
@@ -36,7 +36,7 @@
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="430dp"
+        android:layout_marginTop="420dp"
         android:layout_marginEnd="220dp"
         android:fontFamily="@font/opensans_bold"
         android:text="Working Hours"
@@ -46,57 +46,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="540dp"
-        android:layout_marginEnd="308dp"
-        android:text="Location"
-        android:textColor="#000000"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/location"
-        android:layout_width="336dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="580dp"
-        android:layout_marginEnd="45dp"
-        android:text="4517 Washington Ave. Manchester,  Kentucky 39495 "
-        android:textColor="#000000"
-        android:textSize="17dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="45dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="530dp"
-
-        android:layout_marginEnd="265dp"
-        android:src="@drawable/markericon2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/confirm_order_btn"
         android:layout_width="166dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
+        android:layout_height="50dp"
         android:layout_margin="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="32dp"
-        android:height="59dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/custom_button_15radius"
         android:backgroundTint="#5DBCC5"
+        android:fontFamily="@font/opensans_semibold"
         android:text="Confirm Order"
-        android:textColorLink="#5DBCC5"
-        android:textStyle="bold"
-        app:cornerRadius="24dp"
+        android:textColor="@color/White"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -104,9 +65,10 @@
         android:id="@+id/horizontalScrollView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="440dp"
         android:scrollbars="none"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -119,7 +81,6 @@
                 android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/elevenAM"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="31dp"
@@ -143,7 +104,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/onePM"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
@@ -164,7 +124,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/fivePM"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
@@ -193,18 +152,17 @@
         android:layout_height="302dp"
         android:layout_gravity="center"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="110dp"
         android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <CalendarView
+        <DatePicker
             android:id="@+id/calendarView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:focusedMonthDateColor="@color/themecolor"
-            android:background="@color/themecolor"
+            android:headerBackground="@color/themecolor"
 
             />
 

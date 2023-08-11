@@ -37,7 +37,7 @@
         android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="120dp"
         android:fontFamily="@font/poppins_medium"
         android:lineSpacingExtra="6dp"
         android:text="LifeFit provides you and \nyour loved ones with comfortable environment"
@@ -54,61 +54,59 @@
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
-        android:layout_marginTop="295dp"
+        android:layout_marginTop="315dp"
         android:layout_marginEnd="33dp"
-        android:backgroundTint="#FFFFFF"
-        app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@color/White">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="82dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:layout_constraintStart_toStartOf="parent"
                 android:src="@drawable/house" />
 
-            <TextView
-                android:id="@+id/textView33"
-                android:layout_width="155dp"
-                android:layout_height="17dp"
-                android:layout_marginTop="10dp"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="bottom"
-                android:text="3 Bedrooms, 1 Kitchen"
-                android:textColor="#262A27"
-                app:layout_constraintStart_toEndOf="@+id/imageView3"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="3 Bedrooms, 1 Kitchen"
+                    android:textColor="#262A27"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="+$4 for bathrooom"
+                    android:textColor="#BFBFBF"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+            </LinearLayout>
 
             <TextView
-                android:layout_width="152dp"
-                android:layout_height="23dp"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="+$4 for bathrooom"
-                android:textColor="#BFBFBF"
-                android:textSize="14dp"
-                app:layout_constraintStart_toEndOf="@+id/imageView3"
-                app:layout_constraintTop_toBottomOf="@+id/textView33"
-                tools:ignore="TextSizeCheck" />
-
-            <TextView
-                android:layout_width="103dp"
-                android:layout_height="72dp"
-                android:layout_marginStart="240dp"
-                android:layout_weight="1"
-                android:fontFamily="@font/poppins_medium"
                 android:gravity="center"
                 android:text="$45/hr"
-                android:textColor="#5C598D"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                android:textColor="#5C598D"
+                android:fontFamily="@font/poppins_medium"/>
+
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -120,62 +118,61 @@
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="400dp"
         android:layout_marginEnd="33dp"
-        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/White">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView24"
-                android:layout_width="82dp"
+                android:layout_width="187dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/person"/>
+                android:src="@drawable/person" />
 
-            <TextView
-
-                android:id="@+id/textView34"
-                android:layout_width="178dp"
-                android:layout_height="24dp"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:fontFamily="@font/poppins_medium"
-                android:gravity="bottom"
-                android:text="3 Cleaners"
-                android:textColor="#262A27"
-                app:layout_constraintStart_toEndOf="@+id/imageView24"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:layout_width="213dp"
-                android:layout_height="19dp"
-                android:layout_weight="1"
-                android:text="+$14 / cleaner"
-                android:textColor="#BFBFBF"
-                android:textSize="14dp"
-                app:layout_constraintStart_toEndOf="@+id/imageView24"
-                app:layout_constraintTop_toBottomOf="@+id/textView34"
-                tools:ignore="TextSizeCheck" />
-
-            <TextView
-                android:layout_width="103dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="240dp"
                 android:layout_weight="1"
-                android:fontFamily="@font/poppins_medium"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="3 Cleaners"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#262A27"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="+$14 / cleaner"
+                    android:textColor="#BFBFBF"
+                    android:textSize="14dp"
+                    tools:ignore="TextSizeCheck" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:gravity="center"
                 android:text="$14/person"
-                android:textColor="#5C598D"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/imageView24"
-                app:layout_constraintTop_toTopOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#5C598D"/>
+
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -183,7 +180,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="476dp"
+        android:layout_marginTop="496dp"
         android:layout_marginEnd="228dp"
         android:fontFamily="@font/poppins_medium"
         android:text="Responsibilities:"
@@ -194,10 +191,9 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="272dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="510dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginTop="532dp"
         android:fontFamily="@font/poppins_medium"
         android:lineSpacingExtra="4dp"
         android:text="Cleaning services are responsible for performing general cleaning tasks, which include dusting, vacuuming, sweeping, and mopping floors."
@@ -209,24 +205,24 @@
 
     <TextView
         android:id="@+id/textView21"
-        android:layout_width="230dp"
+        android:layout_width="270dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
         android:fontFamily="@font/poppins_medium"
+        android:lineSpacingExtra="4dp"
         android:text="Cleaning service providers are responsible for thoroughly cleaning and sanitizing restrooms."
         android:textColor="#989494"
         android:textSize="13dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView20"
-        tools:ignore="TextSizeCheck"
-        android:lineSpacingExtra="4dp"/>
+        tools:ignore="TextSizeCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ordernowbtn_housekeeping"
         android:layout_width="170dp"
         android:layout_height="48dp"
-        android:layout_marginTop="692dp"
+        android:layout_marginTop="688dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/custom_button_15radius"
         android:backgroundTint="@color/themecolor"
@@ -238,12 +234,13 @@
     <androidx.cardview.widget.CardView
         android:layout_width="99dp"
         android:layout_height="80dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginRight="285dp"
-        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="5dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="285dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/White">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -260,30 +257,29 @@
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Location"
-                android:textColor="#9E9CA3"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:text="Location" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_medium"
                 android:text="City Center"
                 android:textAlignment="center"
-                android:textColor="#262A27" />
+                android:textColor="#262A27"
+                android:fontFamily="@font/poppins_medium"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="99dp"
         android:layout_height="80dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginRight="160dp"
-        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="160dp"
+        app:cardBackgroundColor="@color/White">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -301,30 +297,29 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#9E9CA3"
                 android:text="Service"
-                android:textAlignment="center" />
+                android:textAlignment="center"/>
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_medium"
                 android:text="House Clean"
                 android:textAlignment="center"
-                android:textColor="#262A27" />
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#262A27"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="99dp"
         android:layout_height="80dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginRight="35dp"
-        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="35dp"
+        app:cardBackgroundColor="@color/White">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -341,7 +336,6 @@
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#9E9CA3"
                 android:text="Price"
                 android:textAlignment="center" />
 
@@ -349,18 +343,18 @@
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_medium"
                 android:text="$45/hr"
                 android:textAlignment="center"
-                android:textColor="#262A27" />
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#262A27"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <ImageView
         android:layout_width="7dp"
         android:layout_height="7dp"
-        android:layout_marginTop="612dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="616dp"
+        android:layout_marginEnd="8dp"
 
         android:src="@drawable/oval"
         app:layout_constraintEnd_toStartOf="@+id/textView21"
@@ -369,8 +363,8 @@
     <ImageView
         android:layout_width="7dp"
         android:layout_height="7dp"
-        android:layout_marginTop="515dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="537dp"
+        android:layout_marginEnd="12dp"
 
         android:src="@drawable/oval"
         app:layout_constraintEnd_toStartOf="@+id/textView20"

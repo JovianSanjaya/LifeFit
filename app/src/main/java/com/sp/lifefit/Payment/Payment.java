@@ -1,56 +1,40 @@
 package com.sp.lifefit.Payment;
 
-import androidx.annotation.ColorInt;
-import androidx.annotation.DrawableRes;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 
-import com.sp.lifefit.CareRecipient.HomeTherapy.HomeTherapyCalendar;
+import com.sp.lifefit.Onboarding.SliderAdapter;
 import com.sp.lifefit.R;
 
+import java.util.ArrayList;
+
 public class Payment extends AppCompatActivity {
-    private AppCompatButton cardbtn;
-    private AppCompatButton cashbtn;
     private AppCompatButton nextbtn;
-    private ImageView backbtn;
+    private ViewPager viewPager;
+    ArrayList<Integer> images = new ArrayList<>();
+    PaymentAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.payment);
 
-        cardbtn = findViewById(R.id.cardbtn);
-        cashbtn = findViewById(R.id.cashbtn);
+        viewPager = findViewById(R.id.viewpager_payment);
+        images.add(R.drawable.cardpay);
+        images.add(R.drawable.cashpay);
+
+        adapter = new PaymentAdapter(this,images);
+        viewPager.setAdapter(adapter);
+
+
+
         nextbtn = findViewById(R.id.nextbtn_payment);
-        backbtn = findViewById(R.id.backbtnImage);
-
-        cardbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Fragment fragment = null;
-                fragment = new CardPaymentFragment();
-                cardbtn.setBackgroundColor(Color.parseColor("#5DBCC5"));
-                cashbtn.setBackgroundColor(Color.LTGRAY);
-            }
-        });
-
-        cashbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Fragment fragment = null;
-                fragment = new CashPaymentFragment();
-                cashbtn.setBackgroundColor(Color.parseColor("#5DBCC5"));
-                cardbtn.setBackgroundColor(Color.LTGRAY);
-            }
-        });
-
         nextbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,16 +43,6 @@ public class Payment extends AppCompatActivity {
                 finish();
             }
         });
-
-        backbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Payment.this, HomeTherapyCalendar.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
 
     }
 }

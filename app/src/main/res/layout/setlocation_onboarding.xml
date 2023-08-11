@@ -16,15 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/go_back_button_background"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,6 +41,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/marker_location"
         android:layout_width="27dp"
         android:layout_height="27dp"
         android:layout_marginStart="34dp"
@@ -60,15 +52,26 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Location"
+        android:textColor="@color/Black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/location_displayed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="248dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="390dp"
         android:fontFamily="@font/opensans_regular"
-        android:text="Your location"
         android:textColor="@color/Black"
-        android:textSize="15dp"
+        android:textSize="14dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

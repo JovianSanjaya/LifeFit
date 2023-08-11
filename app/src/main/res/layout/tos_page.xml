@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:scrollbars="none">
+    android:scrollbars="none"
+    android:background="@drawable/tos_bg">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -15,8 +16,8 @@
             android:id="@+id/imageView10"
             android:layout_width="73dp"
             android:layout_height="54dp"
-            android:layout_marginStart="315dp"
-            android:layout_marginTop="18dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="70dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/paddingless_logo" />
@@ -25,12 +26,12 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="335dp"
-            android:layout_marginTop="65dp"
+            android:layout_marginStart="325dp"
+            android:layout_marginTop="120dp"
             android:fontFamily="@font/opensans_condensed_semibolditalic"
             android:text="LifeFit"
-            android:textColor="#5DBCC5"
-            android:textSize="16sp"
+            android:textColor="@color/themecolor"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,23 +46,22 @@
             tools:layout_editor_absoluteY="49dp">
 
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/gobackbtn_profile_editor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginRight="150dp"
-                android:background="@null"
-                android:src="@drawable/gobackbtn" />
+                />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="50dp"
                 android:fontFamily="@font/opensans_bold"
                 android:text="Terms of Service"
-                android:textColor="#000000"
+                android:textColor="@color/Black"
                 android:textSize="30sp" />
 
             <TextView
@@ -69,15 +69,15 @@
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:text="Last Updated July 2023"
-                android:textColor="#C1C1C1"
-                android:textStyle="bold" />
+                android:textColor="@color/Black"
+                android:fontFamily="@font/poppins_semibold" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="440dp"
                 android:layout_height="22dp"
                 android:layout_marginTop="15dp"
-                app:srcCompat="@drawable/long_grey_line" />
+                />
 
 
             <LinearLayout
@@ -118,7 +118,7 @@
 
                 <TextView
                     android:id="@+id/textView16"
-                    android:layout_width="match_parent"
+                    android:layout_width="287dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="11dp"
                     android:layout_marginTop="13dp"

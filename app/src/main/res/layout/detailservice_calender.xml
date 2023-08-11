@@ -48,10 +48,11 @@
             android:layout_gravity="center"
             app:cardCornerRadius="8dp">
 
-            <CalendarView
+            <DatePicker
                 android:id="@+id/calendarView2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:headerBackground="@color/themecolor" />
         </androidx.cardview.widget.CardView>
 
         <LinearLayout
@@ -142,23 +143,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Location"
-                android:textColor="#222123"
-                android:textSize="18dp"
-                android:fontFamily="@font/poppins_medium" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="34dp"
-                android:layout_height="match_parent"
-                tools:srcCompat="@drawable/markericon2" />
-        </LinearLayout>
+            android:orientation="horizontal"/>
 
         <TableLayout
             android:layout_width="match_parent"
@@ -168,16 +153,7 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/location"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="4517 Washington Ave. Manchester,  Kentucky 39495 "
-                    android:textSize="17dp"
-                    />
-            </TableRow>
+                android:layout_height="match_parent"/>
 
             <TableRow
                 android:layout_width="match_parent"
@@ -185,24 +161,25 @@
 
         </TableLayout>
 
-        <FrameLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/confirm_order_btn"
                 android:layout_width="166dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom|right"
-                android:layout_margin="32dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="80dp"
                 android:height="59dp"
+                android:background="@drawable/custom_button_15radius"
                 android:backgroundTint="#5DBCC5"
+                android:fontFamily="@font/opensans_semibold"
                 android:text="Confirm Order"
-                android:textColorLink="#5DBCC5"
-                android:textStyle="bold"
+                android:textColor="@color/White"
                 app:cornerRadius="50dp"
                 app:iconTint="#5DBCC5" />
-        </FrameLayout>
+        </LinearLayout>
 
     </LinearLayout>
 

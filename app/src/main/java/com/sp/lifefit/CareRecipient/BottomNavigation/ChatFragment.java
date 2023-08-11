@@ -11,7 +11,6 @@ import android.view.WindowManager;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
-import com.sp.lifefit.CareGiver.Chat.ChatCareGiver;
 import com.sp.lifefit.CareRecipient.Chat.Chat;
 import com.sp.lifefit.R;
 

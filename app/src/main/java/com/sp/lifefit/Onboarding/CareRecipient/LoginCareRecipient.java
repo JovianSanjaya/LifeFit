@@ -97,7 +97,7 @@ public class LoginCareRecipient extends AppCompatActivity {
         String userEmail = loginemail.getText().toString().trim();
         String userPassword = loginpassword.getText().toString().trim();
 
-        DatabaseReference reference = FirebaseDatabase.getInstance("https://lifefit-c080f-default-rtdb.asia-southeast1.firebasedatabase.app").getReference("Users");
+        DatabaseReference reference = FirebaseDatabase.getInstance("https://lifefit-c080f-default-rtdb.asia-southeast1.firebasedatabase.app").getReference("Carerecipients");
         Query checkUserDatabase = reference.orderByChild("email").equalTo(userEmail);
 
 

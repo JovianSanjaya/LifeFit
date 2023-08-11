@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundcirclemiddle">
+    android:background="@drawable/help_center_page">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,20 +13,18 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="111dp"
-            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
             android:text="Help Center"
-            android:textColor="#000000"
-            android:textSize="20sp" />
+            android:textColor="@color/White"
+            android:textSize="40dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="34dp"
+            android:textAlignment="viewStart"
+            android:fontFamily="@font/poppins_semibold"
+            />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="350dp"
-            android:layout_height="46dp"
-            android:text="Do you need assisstance?"
-            android:textColor="#5DBCC5"
-            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
@@ -35,6 +33,7 @@
             android:text="Contact Us"
             android:textColor="#000000"
             android:textSize="34sp"
+            android:layout_marginTop="30dp"
             android:textStyle="bold" />
 
         <ImageView
@@ -64,7 +63,7 @@
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
-                    android:text="+65 XXXXXXXX"
+                    android:text="+65 6775 1133"
                     android:textColor="#5DBBC4"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -116,33 +115,6 @@
 
         </TableLayout>
 
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="150dp"
-            app:srcCompat="@drawable/paddingless_logo" />
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/opensans_condensed_semibolditalic"
-            android:gravity="center_horizontal"
-            android:text="LifeFit"
-            android:textColor="#FFFFFF"
-            android:textSize="34sp" />
-
     </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/gobackbtn_help_center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
-        android:background="@null"
-        android:src="@drawable/gobackbtn"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

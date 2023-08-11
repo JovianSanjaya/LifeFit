@@ -24,11 +24,12 @@
             android:id="@+id/textView37"
             android:layout_width="match_parent"
             android:layout_height="79dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="150dp"
             android:gravity="center"
             android:text="Home Therapy"
             android:textColor="#FFFFFF"
-            android:textSize="29dp" />
+            android:textSize="29dp"
+            android:fontFamily="@font/poppins_semibold"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -259,7 +260,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="10dp"
             android:orientation="horizontal">
 
             <TextView
@@ -294,10 +294,10 @@
             android:gravity="bottom|center_horizontal"
             android:orientation="vertical">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/requestnow_hometherapy"
                 android:layout_width="170dp"
-                android:layout_height="58dp"
+                android:layout_height="48dp"
                 android:layout_gravity="center|center_horizontal"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/custom_button_15radius"
@@ -305,7 +305,7 @@
                 android:gravity="center"
                 android:text="Request now"
                 android:textSize="12dp"
-                app:cornerRadius="24dp" />
+                android:textColor="@color/White"/>
         </LinearLayout>
 
     </LinearLayout>

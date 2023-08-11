@@ -35,7 +35,7 @@ public class Housekeeping extends AppCompatActivity {
         ordernowbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Housekeeping.this,HomePersonalCare.class);
+                Intent intent = new Intent(Housekeeping.this, HouseKeepingCalendar.class);
                 startActivity(intent);
                 finish();
             }

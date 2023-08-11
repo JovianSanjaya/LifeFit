@@ -33,21 +33,22 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/opensans_regular"
             android:gravity="center"
-            android:text="Your Booking is successful"
+            android:text="Your Payment Is Successful"
             android:textColor="#000000"
             android:textSize="23dp" />
 
-        <Button
-            android:id="@+id/button5"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nextbtn_successfulpayment"
             android:layout_width="163dp"
-            android:layout_height="73dp"
+            android:layout_height="63dp"
             android:layout_gravity="center"
             android:layout_marginTop="75dp"
             android:backgroundTint="@color/themecolor"
-            android:fontFamily="@font/opensans_regular"
+            android:fontFamily="@font/opensans_semibold"
             android:gravity="center"
             android:text="Next"
             android:textSize="16dp"
-            app:cornerRadius="15dp" />
+            android:textColor="@color/White"
+            android:background="@drawable/custom_button_15radius"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
