@@ -32,6 +32,11 @@ public class EventFragment extends Fragment {
     private Context mContext;
     private CardView meal;
     private CardView homedoctor;
+    private CardView medicine;
+    private CardView houseKeeping;
+    private CardView homeTherapy;
+    private CardView teleConsult;
+
 
 
 
@@ -48,6 +53,10 @@ public class EventFragment extends Fragment {
 
         meal = rootView.findViewById(R.id.meal_arrangement_onactivity);
         homedoctor = rootView.findViewById(R.id.home_doctor_list_onactivity);
+        medicine = rootView.findViewById(R.id.medicine_delivery_list_onactivity);
+        houseKeeping = rootView.findViewById(R.id.housekeeping_list_onactivity);
+        homeTherapy = rootView.findViewById(R.id.home_therapy_list_onactivity);
+        teleConsult = rootView.findViewById(R.id.tele_consultation_list_onactivity);
 
         meal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +74,37 @@ public class EventFragment extends Fragment {
             }
         });
 
+        medicine.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), MedicineDeliveryOnActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        houseKeeping.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), HouseKeepingOnActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        homeTherapy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), HomeTherapyOnActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        teleConsult.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), TeleConsultationsOnActivity.class);
+                startActivity(intent);
+            }
+        });
 
         return rootView;
 

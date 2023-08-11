@@ -137,7 +137,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/medicinelist"
+            android:id="@+id/medicine_delivery_list_onactivity"
             android:layout_width="321dp"
             android:layout_height="96dp"
             android:layout_marginStart="40dp"

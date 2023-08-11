@@ -137,7 +137,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/medicinelist"
+                android:id="@+id/medicine_delivery_list_onactivity"
                 android:layout_width="321dp"
                 android:layout_height="96dp"
                 android:layout_marginStart="40dp"
@@ -184,7 +184,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/housekeepinglist"
+                android:id="@+id/housekeeping_list_onactivity"
                 android:layout_width="321dp"
                 android:layout_height="96dp"
                 android:layout_marginStart="40dp"
@@ -230,7 +230,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/hometherapylist"
+                android:id="@+id/home_therapy_list_onactivity"
                 android:layout_width="321dp"
                 android:layout_height="96dp"
                 android:layout_marginStart="40dp"
@@ -276,7 +276,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/teleconsultationslist"
+                android:id="@+id/tele_consultation_list_onactivity"
                 android:layout_width="321dp"
                 android:layout_height="96dp"
                 android:layout_marginStart="40dp"
@@ -302,7 +302,7 @@
                             android:layout_marginStart="80dp"
                             android:layout_marginTop="29dp"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="House Keeping"
+                            android:text="Tele Consultation"
                             android:textColor="@color/themecolor"
                             android:textSize="23sp" />
 
