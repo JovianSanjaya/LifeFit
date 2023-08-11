@@ -54,7 +54,8 @@
                 android:layout_height="350dp"
                 android:headerBackground="@color/themecolor"
                 android:background="@color/White"
-                android:calendarTextColor="@color/Black"/>
+                android:calendarTextColor="@color/Black"
+                android:yearListSelectorColor="@color/Black"/>
         </androidx.cardview.widget.CardView>
 
         <LinearLayout
