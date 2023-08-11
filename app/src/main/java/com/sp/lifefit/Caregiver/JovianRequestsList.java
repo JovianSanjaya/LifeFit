@@ -21,7 +21,7 @@ public class JovianRequestsList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.medicine_delivery_list);
+        setContentView(R.layout.jovian_carerecipient);
         meal = findViewById(R.id.meal_arrangement_onactivity_caregiver);
         homedoctor = findViewById(R.id.home_doctor_list_onactivity_caregiver);
         meal.setOnClickListener(new View.OnClickListener() {
