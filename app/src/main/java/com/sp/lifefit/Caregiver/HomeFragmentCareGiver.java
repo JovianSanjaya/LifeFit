@@ -33,13 +33,7 @@ public class HomeFragmentCareGiver extends Fragment {
         getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 
-        jovianCarerecipient.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), JovianRequestsList.class);
-                startActivity(intent);
-            }
-        });
+
 
 
 
