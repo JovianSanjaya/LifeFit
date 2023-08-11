@@ -52,7 +52,9 @@
                 android:id="@+id/calendarView2"
                 android:layout_width="wrap_content"
                 android:layout_height="350dp"
-                android:headerBackground="@color/themecolor" />
+                android:headerBackground="@color/themecolor"
+                android:background="@color/White"
+                android:calendarTextColor="@color/Black"/>
         </androidx.cardview.widget.CardView>
 
         <LinearLayout
