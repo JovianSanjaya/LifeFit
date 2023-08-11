@@ -12,7 +12,7 @@
         android:background="@drawable/teleconsultationicon">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/tele_consultation_back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/gobackbtn2"
@@ -237,6 +237,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="•"
+                android:textColor="#989494"
                 android:textSize="30dp" />
 
             <TextView
@@ -266,6 +267,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="•"
+                android:textColor="#989494"
                 android:textSize="30dp" />
 
             <TextView
