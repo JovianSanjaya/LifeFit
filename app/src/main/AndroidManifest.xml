@@ -206,6 +206,10 @@
             android:name=".Caregiver.JovianRequestsList"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Caregiver.MedicineDeliveryListOnActivityCaregiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>

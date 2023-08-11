@@ -17,6 +17,7 @@ public class JovianRequestsList extends AppCompatActivity {
     private Context mContext;
     private CardView meal;
     private CardView homedoctor;
+    private CardView medicine;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class JovianRequestsList extends AppCompatActivity {
         setContentView(R.layout.jovian_carerecipient);
         meal = findViewById(R.id.meal_arrangement_onactivity_caregiver);
         homedoctor = findViewById(R.id.home_doctor_list_onactivity_caregiver);
+        medicine = findViewById(R.id.medicine_delivery_list_onactivity);
         meal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,6 +38,14 @@ public class JovianRequestsList extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(JovianRequestsList.this, HomeDoctorListOnActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        medicine.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(JovianRequestsList.this, MedicineDeliveryListOnActivityCaregiver.class);
                 startActivity(intent);
             }
         });
