@@ -30,6 +30,7 @@ public class JovianRequestsList extends AppCompatActivity {
         homedoctor = findViewById(R.id.home_doctor_list_onactivity_caregiver);
         medicine = findViewById(R.id.medicine_delivery_list_onactivity);
         houseKeeping = findViewById(R.id.housekeeping_list_onactivity);
+        HomeTherapy = findViewById(R.id.home_therapy_list_onactivity);
         meal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,6 +61,15 @@ public class JovianRequestsList extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        HomeTherapy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(JovianRequestsList.this, HomeTherapyOnActivityCaregiver.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 
