@@ -10,7 +10,6 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/homeiconsidebar"
-            android:iconTint="@color/Black"
             android:title="Home" />
         <item
             android:title="Help Center"
