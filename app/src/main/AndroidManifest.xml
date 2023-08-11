@@ -186,6 +186,22 @@
             android:name=".CareRecipient.Chat.Chat"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.BottomNavigation.TeleConsultationsOnActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.BottomNavigation.HouseKeepingOnActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.BottomNavigation.HomeTherapyOnActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CareRecipient.BottomNavigation.MedicineDeliveryOnActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>
