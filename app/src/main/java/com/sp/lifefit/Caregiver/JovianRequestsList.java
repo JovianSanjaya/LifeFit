@@ -61,13 +61,7 @@ public class JovianRequestsList extends AppCompatActivity {
             }
         });
 
-        HomeTherapy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(JovianRequestsList.this, HomeTherapyOnActivityCaregiver.class);
-                startActivity(intent);
-            }
-        });
+
 
 
 
