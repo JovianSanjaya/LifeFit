@@ -221,6 +221,18 @@
             android:name=".Caregiver.MedicineDeliveryListOnActivityCaregiver"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Caregiver.TeleConsultationOnActivityCaregiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Caregiver.HomeTherapyOnActivityCaregiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Caregiver.HousekeepingOnActivityCaregiver"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>
