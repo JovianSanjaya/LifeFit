@@ -48,11 +48,12 @@
                 <TextView
                     android:id="@+id/textView33"
                     android:layout_width="match_parent"
-                    android:layout_height="1dp"
+                    android:layout_height="12dp"
                     android:layout_weight="1"
                     android:gravity="bottom"
                     android:text="Name:"
-                    android:textColor="#000000" />
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
 
                 <TextView
                     android:id="@+id/textView34"
@@ -60,7 +61,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="OBH Combi Plus"
-                    android:textColor="#686868" />
+                    android:textColor="#686868"
+                    android:textSize="18dp" />
             </LinearLayout>
 
         </LinearLayout>
