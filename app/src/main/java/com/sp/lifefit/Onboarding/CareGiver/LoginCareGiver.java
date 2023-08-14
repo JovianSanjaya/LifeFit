@@ -17,6 +17,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.sp.lifefit.CareRecipient.MainCareRecipient;
+import com.sp.lifefit.Caregiver.MainCareGiver;
 import com.sp.lifefit.R;
 
 import java.util.Objects;
@@ -111,7 +112,7 @@ public class LoginCareGiver extends AppCompatActivity {
 
                     if(Objects.equals(passwordFromDB,userPassword)){
                         loginemail.setError(null);
-                        Intent intent =new Intent(LoginCareGiver.this, MainCareRecipient.class);
+                        Intent intent =new Intent(LoginCareGiver.this, MainCareGiver.class);
                         startActivity(intent);
                     }
                     else {

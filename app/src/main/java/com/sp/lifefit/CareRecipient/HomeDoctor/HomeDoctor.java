@@ -33,7 +33,6 @@ public class HomeDoctor extends AppCompatActivity {
          mDoctorlist = HomeDoctorHelper.getCatalog(getResources());
          ListView listviewCatalog = (ListView) findViewById(R.id.listview_mydoctor);
          listviewCatalog.setAdapter(new DoctorAdapter(mDoctorlist,getLayoutInflater()));
-
          listviewCatalog.setOnItemClickListener(new AdapterView.OnItemClickListener() {
              @Override
              public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

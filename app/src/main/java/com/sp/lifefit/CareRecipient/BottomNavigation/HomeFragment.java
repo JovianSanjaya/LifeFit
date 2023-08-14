@@ -13,6 +13,8 @@ import android.widget.Toast;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.sp.lifefit.CareRecipient.HomePersonal.HomePersonalCare;
 import com.sp.lifefit.CareRecipient.HomeDoctor.HomeDoctor;
 import com.sp.lifefit.CareRecipient.HomeTherapy.HomeTherapy;
@@ -26,7 +28,6 @@ public class HomeFragment extends Fragment {
     private CardView Homepersonalcare, Hometherapy, Homedoctor, Teleconsultation, Medicinedelivery;
 
     private ImageButton Happybtn , Calmbtn , Relaxbtn , Focusbtn;
-
 
 
     @Override
@@ -60,6 +61,16 @@ public class HomeFragment extends Fragment {
         Homedoctor.setOnClickListener(onclickdoctor);
         Teleconsultation.setOnClickListener(onclickconsultation);
         Medicinedelivery.setOnClickListener(onclickmeddelivery);
+
+
+
+
+
+
+
+
+
+
 
         return rootView;
 
