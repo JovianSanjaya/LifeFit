@@ -43,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="11/08/2023"
+                    android:text="15/08/2023"
                     android:textColor="#686868"
                     android:textSize="18dp" />
             </LinearLayout>

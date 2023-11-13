@@ -12,6 +12,7 @@ import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import com.sp.lifefit.CareRecipient.Chat.Chat;
+import com.sp.lifefit.Caregiver.Chat.ChatCareGiver;
 import com.sp.lifefit.R;
 
 public class ChatFragmentCareGiver extends Fragment {
@@ -32,7 +33,7 @@ public class ChatFragmentCareGiver extends Fragment {
         anamwpcaregiver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), Chat.class);
+                Intent intent = new Intent(getContext(), ChatCareGiver.class);
                 startActivity(intent);
             }
         });

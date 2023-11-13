@@ -26,14 +26,56 @@
         android:textSize="20sp"
         android:layout_marginStart="155dp"
         android:layout_marginTop="40dp" />
-    <ListView
-        android:id="@+id/medicine_delivery_orders"
-        android:layout_width="360dp"
-        android:layout_height="280dp"
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="95dp"/>
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/some_obh_combi" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="Name:"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="OBH Combi Plus"
+                    android:textColor="#686868"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
     <TextView
         android:layout_width="150dp"
         android:layout_height="30dp"
@@ -62,7 +104,7 @@
         android:layout_height="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="$45.98"
+        android:text="$9.9"
         android:fontFamily="@font/opensans_regular"
         android:textColor="#555555"
         android:textSize="16sp"
@@ -107,45 +149,13 @@
         android:layout_height="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="$55.98"
+        android:text="$19.90"
         android:fontFamily="@font/opensans_condensed_semibold"
         android:textColor="#101623"
         android:textSize="22sp"
         android:layout_marginStart="325dp"
         android:layout_marginTop="480dp" />
-    <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="530dp"
-        app:srcCompat="@drawable/confirm_order_location_icon"/>
-    <TextView
-        android:id="@+id/delivery_location_of_medicine_delivery"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="Block 17A Telok Blangah Crescent, Singapore"
-        android:fontFamily="@font/opensans_regular"
-        android:textColor="#09051C"
-        android:textSize="15sp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="525dp" />
-    <TextView
-        android:id="@+id/change_location_medicine_delivery"
-        android:layout_width="120dp"
-        android:layout_height="25dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="575dp"
-        android:text="Set Location"
-        android:textColor="#5DBCC5"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        android:fontFamily="@font/opensans_regular"/>
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/checkout_drug_button_my_cart"
         android:layout_width="180dp"
