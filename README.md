@@ -62,3 +62,11 @@ their care services with ease and convenience.
 
 # Gallery 📷
 ![oppo](https://github.com/JovianSanjaya/LifeFit/assets/132749552/1e341ffe-d23f-4cbc-b8b7-ba7504331575)
+
+# Award 🏆
+- **Top 10 2023 OPPO ColorOS Asia Pacific**
+  - Life Fit manages to secure top 10 in OPPO ColorOS 2023 with theme Empowering Global Developers with Upgraded Pantanal Platform
+  
+   ![news02](https://github.com/JovianSanjaya/LifeFit/assets/132749552/08ce30c9-3a48-4757-a774-106d0eaf8f19)
+
+
